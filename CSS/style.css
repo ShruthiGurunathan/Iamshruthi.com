@@ -17,6 +17,8 @@ body {
   background-size: cover;
 }
 
+ 
+
 .text-2 { 
   white-space: collapse;
   text-wrap: nowrap;
@@ -671,7 +673,6 @@ margin-right: 250px;
     transform: translateX(100vw);
   }
 }
-
 
 
 
