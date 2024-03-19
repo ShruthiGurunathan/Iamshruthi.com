@@ -7,14 +7,14 @@ margin-bottom:20px;
 margin-left:23px; 
 margin-right:20px;
 height: 3135px;
-width: 1222px;
+width: 1222px; 
 }
 
 
 
 body {
-  background: url("../Images/dotted paper background.png") center center fixed;
-  background-size: cover;
+  background: url("../Images/dotted paper 2.png");
+  margin: 100px;
 }
 
  
@@ -97,6 +97,7 @@ body {
   border-radius: 30px;
   border: #fd7223 solid;
   color: white;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .topnav-item-2 {
@@ -123,7 +124,8 @@ body {
   border-radius: 30px;
   border: #ff66c4 solid;
   color: white;
-  background-color: #ffde59
+  background-color: #ffde59;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .topnav-item-3 {
@@ -151,6 +153,7 @@ body {
   border-radius: 30px;
   border: #0b82e4 solid;
   color: white;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .Navbut {
@@ -298,21 +301,25 @@ margin-top: 300px;
 .case-study-list-item-1:hover {
   border: solid 3px #0b82e4;
   border-radius: 250px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .case-study-list-item-2:hover {
   border: solid 3px #ff66c4;
   border-radius: 250px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .case-study-list-item-3:hover {
   border: solid 3px #fd7223;
   border-radius: 250px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .case-study-list-item-4:hover {
   border: solid 3px #ab2ccd;
   border-radius: 250px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 
