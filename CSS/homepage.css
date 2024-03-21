@@ -635,6 +635,42 @@ margin-right: 250px;
   }
 
 
+   
+   .text-6 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 1102px;
+     margin-top: -130px;
+     padding: 5px 20px;
+     text-decoration: none;
+     color:black;
+     font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+     background-color: white;
+     width: 50px;
+     height: 20px;
+     border-radius:  10px;
+     transform: translate(-50%, -50%);
+     overflow: hidden;
+     text-align: center;
+     }
+     
+     .text-6 a {
+       color: black;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 20px;
+       font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+     }
+     
+     .text-6 a:hover {
+       text-decoration: underline;
+     }
+     
+
+
 
 .text-3 { 
 
