@@ -10,6 +10,12 @@ height: 3140px;
 width: 1222px; 
 }
 
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
 
 
 body {
@@ -23,8 +29,7 @@ body {
   white-space: collapse;
   text-wrap: nowrap;
   display: inline-block;
-  overflow: hidden;
-  animation: moveText 10s linear infinite; 
+  overflow: hidden; 
   font-style: italic; 
   font-style: bold; 
   font-size: 180px;
@@ -37,9 +42,18 @@ body {
   display: inline-block;
   height: 200px;
   width: 1000px;
-  animation: moveText 10s linear infinite;
   margin-top: -250px;
   margin-left: -2600px;
+  animation: moveText 10s linear infinite;
+}
+
+.Icons-1 {
+  display: inline-block;
+  height: 200px;
+  width: 1000px;
+  margin-top: -250px;
+  margin-left: -2600px;
+  animation: loop 10s linear infinite;
 }
 
 @keyframes moveText {
@@ -50,6 +64,22 @@ body {
     transform: translateX(100vw);
   }
 }
+.marquee span {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 
 /* Navigation Bar Styles */
 
@@ -257,7 +287,6 @@ margin-top: -120px;
   height: 130px;
   margin-left: 39.2px;
   transition: background-color 0.3s;
-  
 }
 
 a {
@@ -267,6 +296,9 @@ a {
 
 .case-study-list-item-1 {
 margin-top: 300px;
+}
+.case-study-list-item-1 {
+  margin-top: 300px;
 }
 
 .case-study-list-item-2 {
@@ -281,27 +313,36 @@ margin-top: 300px;
   margin-top: 20px;
 }
 
+
 .case-study-list-item-1:hover {
-  border: solid 3px #0b82e4;
+  border: none;
+  background-color:#0b82e4;
+  color: white; 
   border-radius: 250px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .case-study-list-item-2:hover {
-  border: solid 3px #ff66c4;
+  border: none;
+  background-color:#ff66c4;
+  color: white;
   border-radius: 250px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .case-study-list-item-3:hover {
-  border: solid 3px #fd7223;
+  border: none;
+  background-color:#fd7223;
+  color: white;
   border-radius: 250px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .case-study-list-item-4:hover {
-  border: solid 3px #ab2ccd;
+  border: none;
+  background-color:#ab2ccb;
   border-radius: 250px;
+  color: white;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -315,10 +356,37 @@ margin-top: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 35px;
   font-weight: bold;
-  color: black;
   margin-left: 15px;
 }
 
+.case-study-list-text-1 {
+color: #0b82e4;
+}
+.case-study-list-text-1:hover {
+  color: white;
+  }
+  
+
+.case-study-list-text-2 {
+color:#ff66C4;
+}
+.case-study-list-text-2:hover {
+color: white;
+}
+
+.case-study-list-text-3 {
+color:#fd7223;
+}
+.case-study-list-text-3:hover {
+color: white;
+}
+
+.case-study-list-text-4 {
+color:#ab2ccb;
+}
+.case-study-list-text-4:hover {
+color: white;
+}
 
 /* Case study tags */
 
@@ -347,7 +415,7 @@ margin-top: 300px;
 
 .tag-1 {
   margin-left: 85%;
-  border: solid 1.5px #ff66C4;
+  border: solid 1.5px #0b82e4;
   border-radius: 30px;
   width: 110px;
   display: flex;
@@ -357,7 +425,7 @@ margin-top: 300px;
 
 .tag-2 {
   margin-left: 72%;
-  border: solid 1.5px #ffde59;
+  border: solid 1.5px #0b82e4;
   border-radius: 30px;
   width: 120px;
   display: flex;
@@ -367,7 +435,7 @@ margin-top: 300px;
 
 .tag-3 {
   margin-left: 56%;
-  border: solid 1.5px  #ab2ccb;
+  border: solid 1.5px  #0b82e4;
   border-radius: 30px;
   width: 150px;
   display: flex;
@@ -377,7 +445,7 @@ margin-top: 300px;
 
 .tag-4 {
   margin-left: 40%;
-  border: solid 1.5px #f8256b;
+  border: solid 1.5px #0b82e4;
   border-radius: 30px;
   width: 150px;
   display: flex;
@@ -387,7 +455,7 @@ margin-top: 300px;
 
 .tag-5 {
   margin-left: 85%;
-  border: solid 1.5px #fd7223;
+  border: solid 1.5px #ff66C4;
   border-radius: 30px;
   width: 110px;
   display: flex;
@@ -397,7 +465,7 @@ margin-top: 300px;
 
 .tag-6 {
   margin-left: 72%;
-  border: solid 1.5px #0b82e4;
+  border: solid 1.5px #ff66C4;
   border-radius: 30px;
   width: 120px;
   display: flex;
@@ -407,7 +475,7 @@ margin-top: 300px;
 
 .tag-7 {
   margin-left: 56%;
-  border: solid 1.5px #ffd359;
+  border: solid 1.5px #ff66C4;
   border-radius: 30px;
   width: 150px;
   display: flex;
@@ -417,7 +485,7 @@ margin-top: 300px;
 
 .tag-8 {
   margin-left: 40%;
-  border: solid 1.5px #ab2ccd;
+  border: solid 1.5px #ff66C4;
   border-radius: 30px;
   width: 150px;
   display: flex;
@@ -427,7 +495,7 @@ margin-top: 300px;
 
 .tag-9 {
   margin-left: 85%;
-  border: solid 1.5px #f8256b;
+  border: solid 1.5px #fd7223;
   border-radius: 30px;
   width: 110px;
   display: flex;
@@ -447,7 +515,7 @@ margin-top: 300px;
 
 .tag-11 {
   margin-left: 55%;
-  border: solid 1.5px #0b82e4;
+  border: solid 1.5px #fd7223;
   border-radius: 30px;
   width: 150px;
   display: flex;
@@ -457,7 +525,7 @@ margin-top: 300px;
 
 .tag-12 {
   margin-left: 85%;
-  border: solid 1.5px #ffde59;
+  border: solid 1.5px #ab2ccb;
   border-radius: 30px;
   width: 110px;
   display: flex;
@@ -467,7 +535,7 @@ margin-top: 300px;
 
 .tag-13 {
   margin-left: 70%;
-  border: solid 1.5px #ab2ccd;
+  border: solid 1.5px #ab2ccb;
   border-radius: 30px;
   width: 150px;
   display: flex;
@@ -477,7 +545,7 @@ margin-top: 300px;
 
 .tag-14 {
   margin-left: 55%;
-  border: solid 1.5px #f8256b;
+  border: solid 1.5px #ab2ccb;
   border-radius: 30px;
   width: 150px;
   display: flex;
@@ -487,12 +555,30 @@ margin-top: 300px;
 
 .tag-15 {
   margin-left: 40%;
-  border: solid 1.5px #fd7223;
+  border: solid 1.5px #ab2ccb;
   border-radius: 30px;
   width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.tag-1,
+.tag-2,
+.tag-3,
+.tag-4,
+.tag-5,
+.tag-6,
+.tag-7,
+.tag-8,
+.tag-9,
+.tag-10,
+.tag-11,
+.tag-12,
+.tag-13,
+.tag-14,
+.tag-15:hover {
+  border: white;
+  color: white;
 }
 
 .description {
@@ -523,15 +609,15 @@ margin-top: 300px;
 
 
 .animated-circle-1 {
- width: 140px;
-  height: 140px;
+ width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-color: white;
   animation: spin 10s linear infinite;
   background: linear-gradient(to right, #ff66C4,#ffde59, #ab2ccb, #f8256b, #fd7223, #0b82e4 );
   margin-top: -200px;
  float: right;
- margin-right: 50px;
+ margin-right: 20px;
 }
 
 @keyframes spin {
@@ -547,8 +633,8 @@ margin-top: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1102px;
-  margin-top: -130px;
+  margin-left: 1143px;
+  margin-top: -138px;
   padding: 5px 20px;
   text-decoration: none;
   color:black;
@@ -579,15 +665,15 @@ margin-top: 300px;
   
   
 .animated-circle-2 {
-width: 140px;
-height: 140px;
+width: 120px;
+height: 120px;
 border-radius: 50%;
 background-color: white;
 animation: spin 10s linear infinite;
 background: linear-gradient(to right, #ff66C4,#ffde59, #ab2ccb, #f8256b, #fd7223, #0b82e4 );
 margin-top: -200px;
 float: right;
-margin-right: 250px;
+margin-right: 290px;
 
 }
  
@@ -606,7 +692,7 @@ margin-right: 250px;
   justify-content: center;
   align-items: center;
   margin-top: -30px;
-  margin-left: 900px;
+  margin-left: 870px;
   padding: 5px 20px;
   text-decoration: none;
   color:black;
@@ -634,14 +720,36 @@ margin-right: 250px;
     text-decoration: underline;
   }
 
+  .animated-circle-3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+    animation: spin 10s linear infinite;
+    background: linear-gradient(to right, #ff66C4,#ffde59, #ab2ccb, #f8256b, #fd7223, #0b82e4 );
+    margin-top: -200px;
+    float: right;
+    margin-right: 155px;
+    
+    }
+     
+    
+    @keyframes spin {
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+    }
+    
 
-   
    .text-6 {
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-left: 1102px;
-     margin-top: -130px;
+     margin-left: 1007px;
+     margin-top: -31px;
      padding: 5px 20px;
      text-decoration: none;
      color:black;
@@ -677,8 +785,7 @@ margin-right: 250px;
   white-space: collapse;
   text-wrap: nowrap;
   display: inline-block;
-  overflow: hidden;
-  animation: moveText 10s linear infinite; 
+  overflow: hidden; 
   font-style: italic; 
   font-style: bold; 
   font-size: 180px;
