@@ -209,7 +209,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1143px;
+  margin-left: 1138px;
   margin-top: -138px;
   padding: 5px 20px;
   text-decoration: none;
@@ -268,7 +268,7 @@ margin-right: 290px;
   justify-content: center;
   align-items: center;
   margin-top: -30px;
-  margin-left: 870px;
+  margin-left: 865px;
   padding: 5px 20px;
   text-decoration: none;
   color:black;
@@ -324,7 +324,7 @@ margin-right: 290px;
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-left: 1007px;
+     margin-left: 1001px;
      margin-top: -31px;
      padding: 5px 20px;
      text-decoration: none;
@@ -404,27 +404,3 @@ margin-right: 290px;
 
 
 
-/* Media Queries */
-@media only screen and (max-width: 768px) {
-  .page-border,
-  .dashed-border,
-  .circular-box-1,
-  .circular-box-2,
-  .circular-box-3,
-  .hero-photo,
-  .profile-image,
-  .about-me-image,
-  .case-study-list-item-1,
-  .case-study-list-item-2,
-  .case-study-list-item-3,
-  .case-study-list-item-4,
-  .footer {
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .topnav {
-    margin-right: 5%;
-  }
-
-}
