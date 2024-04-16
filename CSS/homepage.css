@@ -74,7 +74,7 @@ body {
   height: 65px;
   margin-left: 35px;
   top: 5%;
-  background:#f4f1ea;
+  background:white;
   color: black;
   border-radius: 50px;
   border: dashed 1.5px;
@@ -103,7 +103,7 @@ body {
   text-decoration: none;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  background-color:#f4f1ea;
+  background-color:white;
   border-radius: 30px;
   border:#f8256b solid;
 }
@@ -111,7 +111,7 @@ body {
 .topnav-item-2 a:hover {
   border-radius: 30px;
   border: #ff66c4 solid;
-  color: #f4f1ea;
+  color: white;
   background-color:#0b82e4;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -221,7 +221,7 @@ body {
   margin-right: 45px;
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  background-color:#f4f1ea;
+  background-color:white;
   
 }
 
@@ -247,7 +247,7 @@ margin-top: -120px;
 .case-study-list-item-4 {
   border: dashed 1.5px black;
   border-radius: 30px;
-  background-color:#f4f1ea;
+  background-color:white;
   width: 93.2%;
   height: 130px;
   margin-left: 39.2px;
@@ -754,7 +754,7 @@ color:#0b82e4;
     margin-left: 45px;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color:#f4f1ea;
+    background-color:white;
 }
 
 .thick-line-3 {
@@ -777,7 +777,7 @@ color:#0b82e4;
  width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: #f4f1ea;
+  background-color: white;
   animation: spin 10s linear infinite;
   background: linear-gradient(to right, #ff66C4,#ffde59, #ab2ccb, #f8256b, #fd7223, #0b82e4 );
   margin-top: -200px;
@@ -805,7 +805,7 @@ color:#0b82e4;
   color:black;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  background-color:#f4f1ea;
+  background-color:white;
   width: 50px;
   height: 20px;
   border-radius:  10px;
@@ -833,7 +833,7 @@ color:#0b82e4;
 width: 120px;
 height: 120px;
 border-radius: 50%;
-background-color:#f4f1ea;
+background-color:white;
 animation: spin 10s linear infinite;
 background: linear-gradient(to right, #ff66C4,#ffde59, #ab2ccb, #f8256b, #fd7223, #0b82e4 );
 margin-top: -200px;
@@ -863,7 +863,7 @@ margin-right: 290px;
   color:black;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  background-color:#f4f1ea;
+  background-color:white;
   width: 50px;
   height: 20px;
   border-radius: 10px;
@@ -889,7 +889,7 @@ margin-right: 290px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color:#f4f1ea;
+    background-color:white;
     animation: spin 10s linear infinite;
     background: linear-gradient(to right, #ff66C4,#ffde59, #ab2ccb, #f8256b, #fd7223, #0b82e4 );
     margin-top: -200px;
@@ -920,7 +920,7 @@ margin-right: 290px;
      color:black;
      font-size: 20px;
      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-     background-color:#f4f1ea;
+     background-color:white;
      width: 50px;
      height: 20px;
      border-radius:  10px;
@@ -974,7 +974,7 @@ margin-right: 290px;
 /* Footer */
 .footer {
   box-sizing: border-box;
-  background:#f4f1ea;
+  background:white;
   border: dashed 1.5px;
   color: black;
   border-radius: 50px;

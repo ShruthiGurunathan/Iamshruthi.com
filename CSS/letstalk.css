@@ -76,6 +76,7 @@ body {
   color: black;
   border-radius: 50px;
   border: dashed 1.5px;
+  z-index: 100;
 }
 
   
@@ -123,6 +124,7 @@ body {
   margin-left: 20px; 
   border-radius: 10px;
   border: none;
+  
 }
 
 
@@ -131,6 +133,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin-top: 13px;
+  
 }
 
 .Navbut a {
