@@ -31,11 +31,9 @@ body {
   display: inline-block;
   overflow: hidden; 
   font-style: italic; 
-  font-style: bold; 
   font-size: 180px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
- margin-top: 200px;
-
+ margin-top: 310px;
 }
 
 
@@ -359,18 +357,18 @@ margin-right: 290px;
 
 
 
-.text-3 { 
+     .text-3 { 
 
-  white-space: collapse;
-  text-wrap: nowrap;
-  display: inline-block;
-  overflow: hidden; 
-  font-style: italic; 
-  font-style: bold; 
-  font-size: 180px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-
-}
+      white-space: collapse;
+      text-wrap: nowrap;
+      display: inline-block;
+      overflow: hidden; 
+      font-style: italic;  
+      font-size: 180px;
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+     margin-top: 100px;
+    
+    }
 
 
 @keyframes moveText {
