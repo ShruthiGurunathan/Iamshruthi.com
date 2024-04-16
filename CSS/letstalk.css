@@ -6,7 +6,7 @@ margin-top: 20px;
 margin-bottom:20px; 
 margin-left:23px; 
 margin-right:20px;
-height: 1030px;
+height: 1220px;
 max-width: 1222px; 
 }
 
@@ -47,7 +47,7 @@ body {
 }
 .marquee span {
   display: inline-block;
-  animation: marquee 50s linear infinite;
+  animation: marquee 100s linear infinite;
 }
 
 @keyframes marquee {
