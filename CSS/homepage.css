@@ -1,10 +1,8 @@
 /* General Styles */
-@media screen and (min-width : 768px) {
-
 .page-border {
 border: 2px solid black;
 border-radius: 30px;
-margin-top: auto;
+margin-top: 15px;
 margin-bottom:30px; 
 margin-left:23px; 
 margin-right:20px;
@@ -819,7 +817,6 @@ margin-right: 290px;
   margin-left: 50px;
   margin-top: 22px;
 }
-}
 
 
 
@@ -839,15 +836,16 @@ margin-right: 290px;
 
 
 
-@media screen and (min-width : 1200px) {
+
+@media screen and (min-width : 1281px) {
   .page-border {
     border: 2px solid black;
     border-radius: 30px;
-    margin-top: 10px; 
+    margin-top: 20px; 
     margin-bottom:20px; 
     margin-left:23px; 
     margin-right:20px;
-    height: 3395px;
+    height: 3850px;
     max-width: 2500px; 
     }
     
@@ -969,7 +967,7 @@ margin-right: 290px;
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      margin-top: 13px;
+      margin-top: 10px;
     }
     
     .Navbut a {
@@ -1000,7 +998,7 @@ margin-right: 290px;
     .circular-box-1,
     .circular-box-2 {
       position: absolute;
-      width: 91%;
+      width: 94%;
       height: 65px;
       background: black;
       color: black;
@@ -1024,8 +1022,8 @@ margin-right: 290px;
     .hero-photo {
       width: 95%;
       height: auto;
-      padding-top: 210px;
-      padding-left: 34px;
+      padding-top: 350px;
+      padding-left: 45px;
       padding-right: 20px;
       border: transparent;
       border-radius: 30px;
@@ -1037,18 +1035,16 @@ margin-right: 290px;
     .profile-image {
       border: solid thin #f8256b;
       border-radius: 50%;
-      margin-top: 250px;
-      margin-left: 80px;
-      width: 300px;
+      margin-top: 500px;
+      margin-left: 100px;
+      width: 400px;
       height: auto;
     }
     
     .about-me {
-      display: flex;
-      justify-content: center;
-      margin-top: -310px;
-      margin-left: 440px;
-      margin-right: 45px;
+      margin-top: -350px;
+      margin-left: 600px;
+      margin-right: 60px;
       font-size: 25px;
       font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
       background-color:white;
@@ -1061,7 +1057,7 @@ margin-right: 290px;
     }
     
     .circular-box-1 {
-    margin-top: -800px;
+    margin-top: -900px;
     }
     
     .circular-box-2 {
@@ -1078,7 +1074,7 @@ margin-right: 290px;
       border: dashed 1.5px black;
       border-radius: 30px;
       background-color:white;
-      width: 93.2%;
+      width: 95.5%;
       height: 130px;
       margin-left: 39.2px;
       transition: all 0.3s;
@@ -1227,7 +1223,6 @@ margin-right: 290px;
     .tag-15 {
       font-size: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-      margin-left: 15px;
       margin-top: -25px;
       display: flex;
       justify-content: center;
@@ -1235,7 +1230,7 @@ margin-right: 290px;
     
     
     .tag-1 {
-      margin-left: 85%;
+      margin-left: 90%;
       border: solid 1.5px #0b82e4;
       border-radius: 30px;
       width: 110px;
@@ -1248,7 +1243,7 @@ margin-right: 290px;
     
     
     .tag-2 {
-      margin-left: 72%;
+      margin-left: 82%;
       border: solid 1.5px #0b82e4;
       border-radius: 30px;
       width: 120px;
@@ -1261,7 +1256,7 @@ margin-right: 290px;
     
     
     .tag-3 {
-      margin-left: 56%;
+      margin-left: 72.5%;
       border: solid 1.5px  #0b82e4;
       border-radius: 30px;
       width: 150px;
@@ -1274,7 +1269,7 @@ margin-right: 290px;
     
     
     .tag-4 {
-      margin-left: 40%;
+      margin-left: 63%;
       border: solid 1.5px #0b82e4;
       border-radius: 30px;
       width: 150px;
@@ -1286,7 +1281,7 @@ margin-right: 290px;
     
     
     .tag-5 {
-      margin-left: 85%;
+      margin-left: 90%;
       border: solid 1.5px #ff66C4;
       border-radius: 30px;
       width: 110px;
@@ -1299,7 +1294,7 @@ margin-right: 290px;
     
     
     .tag-6 {
-      margin-left: 72%;
+      margin-left: 82%;
       border: solid 1.5px #ff66C4;
       border-radius: 30px;
       width: 120px;
@@ -1312,7 +1307,7 @@ margin-right: 290px;
     
     
     .tag-7 {
-      margin-left: 56%;
+      margin-left: 72.5%;
       border: solid 1.5px #ff66C4;
       border-radius: 30px;
       width: 150px;
@@ -1324,7 +1319,7 @@ margin-right: 290px;
     
     
     .tag-8 {
-      margin-left: 40%;
+      margin-left: 63%;
       border: solid 1.5px #ff66C4;
       border-radius: 30px;
       width: 150px;
@@ -1337,7 +1332,7 @@ margin-right: 290px;
     
     
     .tag-9 {
-      margin-left: 85%;
+      margin-left: 90%;
       border: solid 1.5px #fd7223;
       border-radius: 30px;
       width: 110px;
@@ -1350,7 +1345,7 @@ margin-right: 290px;
     
     
     .tag-10 {
-      margin-left: 70%;
+      margin-left: 81%;
       border: solid 1.5px #fd7223;
       border-radius: 30px;
       width: 150px;
@@ -1363,7 +1358,7 @@ margin-right: 290px;
     
     
     .tag-11 {
-      margin-left: 85%;
+      margin-left: 90%;
       border: solid 1.5px #ab2ccd;
       border-radius: 30px;
       width: 110px;
@@ -1376,7 +1371,7 @@ margin-right: 290px;
     
     
     .tag-12 {
-      margin-left: 70%;
+      margin-left: 81%;
       border: solid 1.5px #ab2ccd;
       border-radius: 30px;
       width: 150px;
@@ -1389,7 +1384,7 @@ margin-right: 290px;
     
     
     .tag-13 {
-      margin-left: 55%;
+      margin-left: 71.5%;
       border: solid 1.5px #ab2ccd;
       border-radius: 30px;
       width: 150px;
@@ -1402,7 +1397,7 @@ margin-right: 290px;
     
     
     .tag-14 {
-      margin-left: 40%;
+      margin-left: 62%;
       border: solid 1.5px #ab2ccd;
       border-radius: 30px;
       width: 150px;
@@ -1426,14 +1421,14 @@ margin-right: 290px;
     }
     
     .thick-line-3 {
-      max-width: 1222px;
+      max-width: 2001px;
       height: 5px;
       margin-top: -210px;
       background-color: black;
     }
     
     .thick-line-4 {
-      max-width: 1222px;
+      max-width: 2001px;
       height: 4px;
       margin-top: 240px;
       background-color: black;
@@ -1466,7 +1461,7 @@ margin-right: 290px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-left: 1136px;
+      margin-left: 1920px;
       margin-top: -138px;
       padding: 5px 20px;
       text-decoration: none;
@@ -1525,7 +1520,7 @@ margin-right: 290px;
       justify-content: center;
       align-items: center;
       margin-top: -30px;
-      margin-left: 865px;
+      margin-left: 1650px;
       padding: 5px 20px;
       text-decoration: none;
       color:black;
@@ -1581,7 +1576,7 @@ margin-right: 290px;
          display: flex;
          justify-content: center;
          align-items: center;
-         margin-left: 1000px;
+         margin-left: 1785px;
          margin-top: -31px;
          padding: 5px 20px;
          text-decoration: none;
