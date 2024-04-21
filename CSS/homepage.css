@@ -818,3 +818,54 @@ margin-right: 290px;
   margin-top: 22px;
 }
 
+@media only screen and (min-width : 1200px) {
+  .page-border {
+    max-width: 90%; /* Example adjustment */
+    margin: 20px auto; /* Example adjustment */
+    height: auto; /* Example adjustment */
+  }
+  
+  .text-2 {
+    margin-top: 250px; /* Example adjustment */
+  }
+  
+  /* Navigation Bar Styles */
+  
+  .topnav-item-2 {
+    margin-left: 20%; /* Example adjustment */
+    margin-top: -30px; /* Example adjustment */
+  }
+  
+  /* Circular boxes */
+  
+  .circular-box-1,
+  .circular-box-2 {
+    width: 90%; /* Example adjustment */
+    margin-left: 5%; /* Example adjustment */
+  }
+  
+  /* Case study items */
+  
+  .case-study-list-item-1 {
+    margin-top: 200px; /* Example adjustment */
+  }
+  
+  /* Case study tags */
+  
+  .tag-1,
+  .tag-2,
+  /* Add more desktop-specific tag styles as needed */
+  
+  /* Other styles */
+  
+  .animated-circle-1,
+  .animated-circle-2,
+  /* Add more desktop-specific animated circle styles as needed */
+  
+  .text-3 {
+    margin-top: 50px; /* Example adjustment */
+
+
+
+
+}}
