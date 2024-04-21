@@ -820,8 +820,8 @@ margin-right: 290px;
 
 @media only screen and (min-width : 1200px) {
   .page-border {
-    max-width: 90%; /* Example adjustment */
-    margin: 20px auto; /* Example adjustment */
+    max-width: auto; /* Example adjustment */
+    margin: auto; /* Example adjustment */
     height: auto; /* Example adjustment */
   }
   
