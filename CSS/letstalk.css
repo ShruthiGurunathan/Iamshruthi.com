@@ -1,14 +1,14 @@
 /* General Styles */
 .page-border {
-border: 2px solid black;
-border-radius: 30px;
-margin-top: 15px; 
-margin-bottom:20px; 
-margin-left:23px; 
-margin-right:20px;
-height: 1220px;
-max-width: 1222px; 
-}
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom:30px; 
+  margin-left:23px; 
+  margin-right:20px;
+  height: 1220px;
+  max-width: 1222px; 
+  }
 
 .marquee {
   width: 100%;
