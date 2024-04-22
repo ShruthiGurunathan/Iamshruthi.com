@@ -181,10 +181,10 @@ body {
 /* Images */
 
 .hero-photo {
-  width: 95%;
+  width: 105%;
   height: auto;
-  padding-top: 210px;
-  padding-left: 34px;
+  margin-top: 200px;
+  padding-left: 30px;
   padding-right: 20px;
   border: transparent;
   border-radius: 30px;
@@ -195,17 +195,17 @@ body {
 }
 
 .large-tag{
-  width: 10ch;
+  width: 15ch;
   height: 5ch;
   border: 2px solid black;
   border-radius: 100px;
-  margin-left: 170px;
+  margin-left: 150px;
   margin-top: -180px;
   justify-content: center;
   align-items: center;
   padding: .5ch .75ch;
   font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 400;
   line-height: 100%;
   display: flex;
@@ -219,30 +219,6 @@ div{
   unicode-bidi: isolate;
 }
 
-
-
-.large-tag.ciao {
-  display: flex;
-  position: absolute;
-}
-
-.large-tag.bonjour{
-  z-index: 3;
-  display: flex;
-  position: absolute;
-}
-
-.large-tag.hola{
-  z-index: 4;
-  display: flex;
-  position: absolute;
-}
-
-.large-tag.namaste{
-  z-index: 5;
-  display: flex;
-  position: relative;
-}
 
 .profile-image {
   border: solid thin #f8256b;
@@ -1071,10 +1047,10 @@ margin-right: 290px;
     /* Images */
     
     .hero-photo {
-      width: 95%;
+      width: 105%;
       height: auto;
-      padding-top: 350px;
-      padding-left: 45px;
+      margin-top: 200px;
+      padding-left: 30px;
       padding-right: 20px;
       border: transparent;
       border-radius: 30px;
@@ -1085,17 +1061,17 @@ margin-right: 290px;
     }
     
     .large-tag{
-      width: 10ch;
+      width: 15ch;
       height: 5ch;
       border: 2px solid black;
       border-radius: 100px;
-      margin-left: 170px;
+      margin-left: 150px;
       margin-top: -180px;
       justify-content: center;
       align-items: center;
       padding: .5ch .75ch;
       font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-      font-size: 5vw;
+      font-size: 4vw;
       font-weight: 400;
       line-height: 100%;
       display: flex;
@@ -1108,36 +1084,6 @@ margin-right: 290px;
     div{
       unicode-bidi: isolate;
     }
-    
-    
-    
-    .large-tag.ciao {
-      display: flex;
-      position: absolute;
-    }
-    
-    .large-tag.bonjour{
-      z-index: 3;
-      display: flex;
-      position: absolute;
-    }
-    
-    .large-tag.hola{
-      z-index: 4;
-      display: flex;
-      position: absolute;
-    }
-    
-    .large-tag.namaste{
-      z-index: 5;
-      display: flex;
-      position: relative;
-    }
-    
-
-
-
-
     
     
     
