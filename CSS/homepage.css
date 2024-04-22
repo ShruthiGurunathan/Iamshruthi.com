@@ -1061,12 +1061,12 @@ margin-right: 290px;
     }
     
     .large-tag{
-      width: 15ch;
+      width: 25ch;
       height: 5ch;
       border: 2px solid black;
       border-radius: 100px;
       margin-left: 150px;
-      margin-top: -180px;
+      margin-top: -150px;
       justify-content: center;
       align-items: center;
       padding: .5ch .75ch;
