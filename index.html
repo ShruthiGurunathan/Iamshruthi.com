@@ -12,7 +12,30 @@
 <!-- Header and Navigation bar -->
 
 <header>
-  <img class="hero-photo" src="Images/hello 2.png" alt="Hero photo;">
+<div class='cursor' id="cursor"></div>
+
+<script type="text/javascript">
+
+var cursor = document.getElementById("cursor");
+
+document.body.addEventListener("mousemove", function(e) {
+  cursor.style.left = e.clientX + "px";
+  cursor.style.top = e.clientY + "px";
+});
+
+document.body.addEventListener("mouseover", function(e) {
+  if (e.target.classList.contains("enlarge-on-hover")) {
+    cursor.classList.add("enlarged");
+  }
+});
+
+document.body.addEventListener("mouseout", function(e) {
+  cursor.classList.remove("enlarged");
+});
+
+</script>
+
+<img class="hero-photo" src="Images/hello 2.png" alt="Hero photo;">
   <div class="large-tag hello"><h2 class="display-medium-alt homepage changing-text">Hello</h2></div>
 
   <script type="text/javascript">
@@ -52,7 +75,6 @@
 </div>
 
 <!-- Main section and content -->
-
 <body class="page-border">
 <div class="marquee">
   <span>
