@@ -900,7 +900,33 @@ margin-right: 290px;
     max-width: 2500px; 
     }
     
+    body {
+      cursor: none;
+    }
     
+    .cursor {
+      position: fixed;
+      border-radius: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      pointer-events: none;
+      left: -100px; 
+      top: -100px; 
+      mix-blend-mode: difference;
+      background-color: transparent;
+      z-index: 100;
+      border: 2px solid black;
+      height: 50px; 
+      width: 50px; 
+      transition: all 0.1s ease-out; 
+    }
+    
+    .cursor.enlarged {
+      height: 100px; 
+      width: 100px; 
+    }
+    
+
+
     .marquee {
       width: 100%;
       white-space: nowrap;
