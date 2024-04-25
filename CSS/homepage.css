@@ -10,6 +10,10 @@ height: 3320px;
 max-width: 1222px; 
 }
 
+.logo-small, .Nav a, .topnav-item-2 a, .Navbut a, .text-4 a, .text-5 a, .text-6 a {
+  cursor: none; 
+}
+
 body {
   cursor: none;
 }

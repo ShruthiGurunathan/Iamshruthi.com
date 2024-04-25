@@ -9,7 +9,9 @@
   height: 1230px;
   max-width: 1222px; 
   }
-
+  .logo-small, .Nav a, .topnav-item-2 a, .Navbut a, .text-4 a, .text-5 a, .text-6 a {
+    cursor: none; 
+  }
   body {
     cursor: none;
   }
@@ -24,6 +26,7 @@
     border-radius: 50px;
     transform: translate(.50%, -50%);
     z-index: 9999;
+    pointer-events: none;
   }
   
   .cursor::after,
