@@ -44,7 +44,7 @@ body {
 }
 
 .cursor.click::before {
-  animation: click 1s ease-in-out forwards;
+  animation: click 5s ease-in-out forwards;
 }
 
 @keyframes click {
