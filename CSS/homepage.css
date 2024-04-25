@@ -23,6 +23,7 @@ body {
   height: 30px;
   border-radius: 50px;
   transform: translate(.50%, -50%);
+  z-index: 9999;
 }
 
 .cursor::after,
@@ -944,6 +945,7 @@ margin-right: 290px;
       height: 30px;
       border-radius: 50px;
       transform: translate(.50%, -50%);
+      z-index: 9999;
     }
     
     .cursor::after,
@@ -977,7 +979,7 @@ margin-right: 290px;
         transform: translate(-50%, -50%) scale(5);
       }
     }
-    
+
     .marquee {
       width: 100%;
       white-space: nowrap;
