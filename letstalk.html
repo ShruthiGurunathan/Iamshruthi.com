@@ -4,6 +4,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="CSS/letstalk.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="icon" type="image/png" href= "Images/1-removebg-preview.png">
 </head>
 
@@ -12,6 +13,34 @@
 <!-- Header and Navigation bar -->
 
 <header>
+  <div class='cursor' id="cursor"></div>
+
+<script type="text/javascript">
+
+var cursor = document.querySelector('.cursor');
+
+window.addEventListener('mousemove', (e) => {
+  cursor.style.left = e.pageX + 'px';
+  cursor.style.top = e.pageY + 'px';
+  cursor.setAttribute('data-fromTop', (cursor.offsetTop - scrollY));
+});
+
+window.addEventListener('scroll', () => {
+  const fromTop = parseInt(cursor.getAttribute('data-fromTop'));
+  cursor.style.top = scrollY + fromTop + 'px';
+});
+
+window.addEventListener('click', () => {
+  if (cursor.classList.contains('active')) {
+    cursor.classList.remove('click');
+    void cursor.offsetWidth;
+    cursor.classList.add('click');
+  } else {
+    cursor.classList.add('click');
+  }
+});
+
+</script>
   <div class="dashed-border">
     <div class="circle-1"></div>
     <div class="circle-2"></div>

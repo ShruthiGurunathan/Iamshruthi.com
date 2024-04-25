@@ -3,8 +3,8 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="icon" type="image/png" href= "Images/1-removebg-preview.png">
 </head>
 
@@ -17,27 +17,27 @@
 <script type="text/javascript">
 
 var cursor = document.querySelector('.cursor');
+
 window.addEventListener('mousemove', (e) => {
-  cursor.style.left =e.pageX +'px';
-  cursor.style.top = e.pageY +'px';
-  cursor. setAttribute('data-fromTop', (cursor.offsetTop - scrollY))
+  cursor.style.left = e.pageX + 'px';
+  cursor.style.top = e.pageY + 'px';
+  cursor.setAttribute('data-fromTop', (cursor.offsetTop - scrollY));
 });
 
 window.addEventListener('scroll', () => {
   const fromTop = parseInt(cursor.getAttribute('data-fromTop'));
   cursor.style.top = scrollY + fromTop + 'px';
-  console.log(fromTop)
 });
 
 window.addEventListener('click', () => {
-  if(cursor.classList.contains('active')){
-    cursor.classList.add.remove('click');
+  if (cursor.classList.contains('active')) {
+    cursor.classList.remove('click');
     void cursor.offsetWidth;
     cursor.classList.add('click');
-  }else{
-    cursor.classList.add('click')
+  } else {
+    cursor.classList.add('click');
   }
-})
+});
 
 </script>
 
@@ -128,7 +128,7 @@ the right direction 👉 <br></p>
 <div class="circular-box-1">
 <div class="circular-box-text-1">
 <div class="text-1">
-<p>About me About me About me About me About me About me About me About me Abou</p>
+<p>About me</p>
 </div>
 </div>
 </div>
@@ -136,7 +136,7 @@ the right direction 👉 <br></p>
 <div class="circular-box-2">
 <div class="circular-box-text-2">
 <div class="text-1">
-<p>Selected work Selected work Selected work Selected work Selected work Selected work Se</p>
+<p>Selected work</p>
 </div>
 </div>
 </div>
