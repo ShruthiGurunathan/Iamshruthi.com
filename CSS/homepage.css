@@ -63,12 +63,10 @@ body {
   }
 }
 
-
 .marquee {
-  width: 100%;
+  width: 100%; 
+  overflow-x: hidden;
   white-space: nowrap;
-  overflow: hidden;
-  position: relative;
 }
 
 body {
@@ -922,12 +920,6 @@ margin-right: 290px;
 
 
 
-
-
-
-
-
-
 @media screen and (min-width : 1281px) {
   .page-border {
     border: 2px solid black;
@@ -989,10 +981,9 @@ margin-right: 290px;
     }
 
     .marquee {
-      width: 100%;
-      white-space: nowrap;
-      overflow: hidden;
-      position: relative;
+      width: 100%; 
+      overflow-x: hidden; 
+      white-space: nowrap; 
     }
     
     body {

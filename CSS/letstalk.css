@@ -64,13 +64,11 @@
 
 
 
-.marquee {
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-}
-
+  .marquee {
+    width: 100%; 
+    overflow-x: hidden; 
+    white-space: nowrap; 
+  }
 
 body {
   background: url("../Images/Background offwhite colour.png") center center fixed;
@@ -539,10 +537,9 @@ margin-right: 290px;
   
   
   .marquee {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
+    width: 100%; 
+    overflow-x: hidden; 
+    white-space: nowrap; 
   }
   
   
