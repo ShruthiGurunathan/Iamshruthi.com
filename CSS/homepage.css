@@ -14,7 +14,7 @@ body {
   cursor: none;
 }
 
-.cursor{
+.cursor {
   position: absolute;
   left: 0;
   top: 0;
@@ -22,38 +22,38 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  transform: translate (.50%, -50%);
+  transform: translate(.50%, -50%);
 }
 
-.cursor::after, .cursor::before{
+.cursor::after,
+.cursor::before {
   content: '';
   position: absolute;
   width: 5px;
   height: 5px;
   left: 50%;
   top: 50%;
-  transform: translate (-50%, -50%);
+  transform: translate(-50%, -50%);
   background-color: black;
   border-radius: 50px;
 }
 
-.cursor::before{
-background-color: #0b82e4;
-/*transform: translate(-50%, -50%) scale (3);*/
-
+.cursor::before {
+  background-color: #0b82e4;
 }
-.cursor .click ::before{
-  animation: click 1s easein-out forwards;
+
+.cursor.click::before {
+  animation: click 1s ease-in-out forwards;
 }
 
 @keyframes click {
   0% {
-  transform: translate(-50%, -50%) scale (1);
-  opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
-  100%{
-opacity: 0;
-transform: translate(-50%, -50%) scale (5);
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(5);
   }
 }
 
@@ -935,7 +935,7 @@ margin-right: 290px;
       cursor: none;
     }
     
-    .cursor{
+    .cursor {
       position: absolute;
       left: 0;
       top: 0;
@@ -943,43 +943,41 @@ margin-right: 290px;
       width: 30px;
       height: 30px;
       border-radius: 50px;
-      transform: translate (.50%, -50%);
+      transform: translate(.50%, -50%);
     }
     
-    .cursor::after, .cursor::before{
+    .cursor::after,
+    .cursor::before {
       content: '';
       position: absolute;
       width: 5px;
       height: 5px;
       left: 50%;
       top: 50%;
-      transform: translate (-50%, -50%);
+      transform: translate(-50%, -50%);
       background-color: black;
       border-radius: 50px;
     }
     
-    .cursor::before{
-    background-color: #0b82e4;
-    /*transform: translate(-50%, -50%) scale (3);*/
-    
+    .cursor::before {
+      background-color: #0b82e4;
     }
-    .cursor .click ::before{
-      animation: click 1s easein-out forwards;
+    
+    .cursor.click::before {
+      animation: click 1s ease-in-out forwards;
     }
     
     @keyframes click {
       0% {
-      transform: translate(-50%, -50%) scale (1);
-      opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
       }
-      100%{
-    opacity: 0;
-    transform: translate(-50%, -50%) scale (5);
+      100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(5);
       }
     }
     
-    
-
     .marquee {
       width: 100%;
       white-space: nowrap;
