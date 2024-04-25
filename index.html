@@ -16,22 +16,29 @@
 
 <script type="text/javascript">
 
-var cursor = document.getElementById("cursor");
+var cursor = document.querySelector('.cursor');
+window.addEventListener('mousemove', (e) => {
+  cursor.style.left =e.pageX +'px';
+  cursor.style.top = e.pageY +'px';
+  cursor. setAttribute('data-fromTop', (cursor.offsetTop - scrollY))
+});
 
-    document.body.addEventListener("mousemove", function(e) {
-      cursor.style.left = e.clientX + "px";
-      cursor.style.top = e.clientY + "px";
-    });
+window.addEventListener('scroll', () => {
+  const fromTop = parseInt(cursor.getAttribute('data-fromTop'));
+  cursor.style.top = scrollY + fromTop + 'px';
+  console.log(fromTop)
+});
 
-    document.body.addEventListener("mouseover", function(e) {
-      if (e.target.classList.contains("enlarge-on-hover")) {
-        cursor.classList.add("enlarged");
-      }
-    });
+window.addEventListener('click', () => {
+  if(cursor.classList.contains('active')){
+    cursor.classList.add.remove('click');
+    void cursor.offsetWidth;
+    cursor.classList.add('click');
+  }else{
+    cursor.classList.add('click')
+  }
+})
 
-    document.body.addEventListener("mouseout", function(e) {
-      cursor.classList.remove("enlarged");
-    });
 </script>
 
 <img class="hero-photo" src="Images/hello 2.png" alt="Hero photo;">

@@ -14,26 +14,49 @@ body {
   cursor: none;
 }
 
-.cursor {
-  position: fixed;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  pointer-events: none;
-  left: -100px; 
-  top: -100px; 
-  mix-blend-mode: difference;
-  background-color: transparent;
-  z-index: 100;
-  border: 2px solid black;
-  height: 50px; 
-  width: 50px; 
-  transition: all 0.1s ease-out; 
+.cursor{
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1.5px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  transform: translate (.50%, -50%);
 }
 
-.cursor.enlarged {
-  height: 100px; 
-  width: 100px; 
+.cursor::after, .cursor::before{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate (-50%, -50%);
+  background-color: black;
+  border-radius: 50px;
 }
+
+.cursor::before{
+background-color: #0b82e4;
+/*transform: translate(-50%, -50%) scale (3);*/
+
+}
+.cursor .click ::before{
+  animation: click 1s easein-out forwards;
+}
+
+@keyframes click {
+  0% {
+  transform: translate(-50%, -50%) scale (1);
+  opacity: 1;
+  }
+  100%{
+opacity: 0;
+transform: translate(-50%, -50%) scale (5);
+  }
+}
+
 
 .marquee {
   width: 100%;
@@ -912,27 +935,50 @@ margin-right: 290px;
       cursor: none;
     }
     
-    .cursor {
-      position: fixed;
-      border-radius: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      pointer-events: none;
-      left: -100px; 
-      top: -100px; 
-      mix-blend-mode: difference;
-      background-color: transparent;
-      z-index: 100;
-      border: 2px solid black;
-      height: 50px; 
-      width: 50px; 
-      transition: all 0.1s ease-out; 
+    .cursor{
+      position: absolute;
+      left: 0;
+      top: 0;
+      border: 1.5px solid black;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      transform: translate (.50%, -50%);
     }
     
-    .cursor.enlarged {
-      height: 100px; 
-      width: 100px; 
+    .cursor::after, .cursor::before{
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      left: 50%;
+      top: 50%;
+      transform: translate (-50%, -50%);
+      background-color: black;
+      border-radius: 50px;
     }
-
+    
+    .cursor::before{
+    background-color: #0b82e4;
+    /*transform: translate(-50%, -50%) scale (3);*/
+    
+    }
+    .cursor .click ::before{
+      animation: click 1s easein-out forwards;
+    }
+    
+    @keyframes click {
+      0% {
+      transform: translate(-50%, -50%) scale (1);
+      opacity: 1;
+      }
+      100%{
+    opacity: 0;
+    transform: translate(-50%, -50%) scale (5);
+      }
+    }
+    
+    
 
     .marquee {
       width: 100%;
