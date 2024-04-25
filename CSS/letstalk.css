@@ -43,7 +43,7 @@
   }
   
   .cursor::before {
-    background-color: #0b82e4;
+    background-color: #ffd359;
   }
   
   .cursor.click::before {
@@ -517,7 +517,7 @@ margin-right: 290px;
   }
   
   .cursor::before {
-    background-color: #0b82e4;
+    background-color: #ffd359;
   }
   
   .cursor.click::before {
