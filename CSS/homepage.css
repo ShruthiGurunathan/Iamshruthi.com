@@ -19,8 +19,8 @@ body {
   left: 0;
   top: 0;
   border: 1.5px solid black;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   transform: translate(.50%, -50%);
   z-index: 9999;
@@ -30,8 +30,8 @@ body {
 .cursor::before {
   content: '';
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -941,8 +941,8 @@ margin-right: 290px;
       left: 0;
       top: 0;
       border: 1.5px solid black;
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       border-radius: 50px;
       transform: translate(.50%, -50%);
       z-index: 9999;
@@ -952,8 +952,8 @@ margin-right: 290px;
     .cursor::before {
       content: '';
       position: absolute;
-      width: 5px;
-      height: 5px;
+      width: 8px;
+      height: 8px;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
@@ -966,7 +966,7 @@ margin-right: 290px;
     }
     
     .cursor.click::before {
-      animation: click 1s ease-in-out forwards;
+      animation: click 5s ease-in-out forwards;
     }
     
     @keyframes click {
