@@ -113,6 +113,7 @@ body {
   margin-top: -29px;
   margin-left: 890px;
   border: soild;
+  
 }
 
 .topnav-item-2 a {
@@ -132,6 +133,7 @@ body {
   color:#f8256b;
   background-color:#f4f1ea;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: none;
 }
 
 
@@ -145,6 +147,7 @@ body {
   margin-left: 20px; 
   border-radius: 10px;
   border: none;
+  cursor: none;
 }
 
 
@@ -169,6 +172,7 @@ body {
   background-color: black;
   border-radius: 30px;
   color:#fd7223;
+  cursor: none;
 }
 
 .Navbut a.active {
@@ -292,6 +296,7 @@ margin-top: -120px;
   height: 130px;
   margin-left: 39.2px;
   transition: all 0.3s;
+  cursor: none;
   
 }
 
@@ -677,16 +682,16 @@ color:#0b82e4;
   justify-content: center;
   align-items: center;
   margin-left: 1136px;
-  margin-top: -138px;
+  margin-top: -140px;
   padding: 5px 20px;
   text-decoration: none;
   color:black;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color:white;
-  width: 50px;
-  height: 20px;
-  border-radius:  10px;
+  width: 80px;
+  height: 30px;
+  border-radius:  20px;
   transform: translate(-50%, -50%);
   overflow: hidden;
   text-align: center;
@@ -703,6 +708,7 @@ color:#0b82e4;
   
   .text-4 a:hover {
     text-decoration: underline;
+    cursor: none;
   }
   
   
@@ -742,9 +748,9 @@ margin-right: 290px;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color:white;
-  width: 50px;
-  height: 20px;
-  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  border-radius:  20px;
   transform: translate(-50%, -50%);
   overflow: hidden;
   text-align: center;
@@ -761,6 +767,7 @@ margin-right: 290px;
   
   .text-5 a:hover {
     text-decoration: underline;
+    cursor: none;
   }
 
   .animated-circle-3 {
@@ -799,9 +806,9 @@ margin-right: 290px;
      font-size: 20px;
      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
      background-color:white;
-     width: 50px;
-     height: 20px;
-     border-radius:  10px;
+     width: 80px;
+  height: 30px;
+  border-radius:  20px;
      transform: translate(-50%, -50%);
      overflow: hidden;
      text-align: center;
@@ -818,6 +825,7 @@ margin-right: 290px;
      
      .text-6 a:hover {
        text-decoration: underline;
+       cursor: none;
      }
      
 
@@ -1566,16 +1574,16 @@ margin-right: 290px;
       justify-content: center;
       align-items: center;
       margin-left: 1920px;
-      margin-top: -138px;
+      margin-top: -140px;
       padding: 5px 20px;
       text-decoration: none;
       color:black;
       font-size: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
       background-color:white;
-      width: 50px;
-      height: 20px;
-      border-radius:  10px;
+      width: 80px;
+      height: 30px;
+      border-radius:  20px;
       transform: translate(-50%, -50%);
       overflow: hidden;
       text-align: center;
@@ -1592,6 +1600,7 @@ margin-right: 290px;
       
       .text-4 a:hover {
         text-decoration: underline;
+        cursor: none;
       }
       
       
@@ -1606,6 +1615,7 @@ margin-right: 290px;
     margin-top: -200px;
     float: right;
     margin-right: 290px;
+    cursor: none;
     
     }
      
@@ -1623,7 +1633,7 @@ margin-right: 290px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: -30px;
+      margin-top: -140px;
       margin-left: 1650px;
       padding: 5px 20px;
       text-decoration: none;
@@ -1631,9 +1641,9 @@ margin-right: 290px;
       font-size: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
       background-color:white;
-      width: 50px;
-      height: 20px;
-      border-radius: 10px;
+      width: 80px;
+      height: 30px;
+      border-radius:  20px;
       transform: translate(-50%, -50%);
       overflow: hidden;
       text-align: center;
@@ -1650,6 +1660,7 @@ margin-right: 290px;
       
       .text-5 a:hover {
         text-decoration: underline;
+        cursor: none;
       }
     
       .animated-circle-3 {
@@ -1662,7 +1673,7 @@ margin-right: 290px;
         margin-top: -200px;
         float: right;
         margin-right: 155px;
-        
+        cursor: none;
         }
          
         
@@ -1681,16 +1692,16 @@ margin-right: 290px;
          justify-content: center;
          align-items: center;
          margin-left: 1785px;
-         margin-top: -31px;
+         margin-top: -140px;
          padding: 5px 20px;
          text-decoration: none;
          color:black;
          font-size: 20px;
          font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
          background-color:white;
-         width: 50px;
-         height: 20px;
-         border-radius:  10px;
+         width: 80px;
+         height: 30px;
+         border-radius:  20px;
          transform: translate(-50%, -50%);
          overflow: hidden;
          text-align: center;
@@ -1707,6 +1718,7 @@ margin-right: 290px;
          
          .text-6 a:hover {
            text-decoration: underline;
+           cursor: none;
          }
          
     

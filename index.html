@@ -18,21 +18,20 @@
 
 var cursor = document.getElementById("cursor");
 
-document.body.addEventListener("mousemove", function(e) {
-  cursor.style.left = e.clientX + "px";
-  cursor.style.top = e.clientY + "px";
-});
+    document.body.addEventListener("mousemove", function(e) {
+      cursor.style.left = e.clientX + "px";
+      cursor.style.top = e.clientY + "px";
+    });
 
-document.body.addEventListener("mouseover", function(e) {
-  if (e.target.classList.contains("enlarge-on-hover")) {
-    cursor.classList.add("enlarged");
-  }
-});
+    document.body.addEventListener("mouseover", function(e) {
+      if (e.target.classList.contains("enlarge-on-hover")) {
+        cursor.classList.add("enlarged");
+      }
+    });
 
-document.body.addEventListener("mouseout", function(e) {
-  cursor.classList.remove("enlarged");
-});
-
+    document.body.addEventListener("mouseout", function(e) {
+      cursor.classList.remove("enlarged");
+    });
 </script>
 
 <img class="hero-photo" src="Images/hello 2.png" alt="Hero photo;">
