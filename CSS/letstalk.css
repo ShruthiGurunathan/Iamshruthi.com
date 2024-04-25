@@ -38,7 +38,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background-color: #ffde59;
     border-radius: 50px;
   }
   
@@ -512,7 +512,7 @@ margin-right: 290px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background-color: #ffd359;
     border-radius: 50px;
   }
   
