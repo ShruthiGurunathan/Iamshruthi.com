@@ -12,34 +12,22 @@
 <!-- Header and Navigation bar -->
 
 <header>
-<div class='cursor' id="cursor"></div>
+  <div class="cursor"></div>
 
-<script type="text/javascript">
+  <script type="text/javascript">
 
-var cursor = document.querySelector('.cursor');
+const cursor = document.querySelector('.cursor');
 
-window.addEventListener('mousemove', (e) => {
-  cursor.style.left = e.pageX + 'px';
-  cursor.style.top = e.pageY + 'px';
-  cursor.setAttribute('data-fromTop', (cursor.offsetTop - scrollY));
+document.addEventListener('mousemove', (e) => {
+  const size = Math.min(Math.max(50, e.clientY * 0.5), 150); 
+  
+  cursor.style.width = size + 'px';
+  cursor.style.height = size + 'px';
+  cursor.style.left = e.pageX - (size / 2) + 'px';
+  cursor.style.top = e.pageY - (size / 2) + 'px';
 });
-
-window.addEventListener('scroll', () => {
-  const fromTop = parseInt(cursor.getAttribute('data-fromTop'));
-  cursor.style.top = scrollY + fromTop + 'px';
-});
-
-window.addEventListener('click', () => {
-  if (cursor.classList.contains('active')) {
-    cursor.classList.remove('click');
-    void cursor.offsetWidth;
-    cursor.classList.add('click');
-  } else {
-    cursor.classList.add('click');
-  }
-});
-
-</script>
+    
+    </script>
 
 <img class="hero-photo" src="Images/hello 2.png" alt="Hero photo;">
   <div class="large-tag hello"><h2 class="display-medium-alt homepage changing-text">Hello</h2></div>
