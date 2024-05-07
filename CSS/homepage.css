@@ -1219,8 +1219,6 @@ margin-right: 290px;
     .job-title{
       width: 15ch;
       height: 5ch;
-      border: none;
-      border-radius: 100px;
       margin-left: 900px;
       margin-top: -50px;
       margin-bottom: -270px;
@@ -1242,8 +1240,9 @@ margin-right: 290px;
     }
     
     .dots{
-      margin-left: 200px;
-      margin-top: -170px;
+      margin-left: 438px;
+      margin-top: -225px;
+      margin-bottom: 30px;
       width: 900px; 
       height: 250px;
     }
