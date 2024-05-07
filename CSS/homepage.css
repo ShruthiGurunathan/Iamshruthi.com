@@ -299,6 +299,8 @@ div{
 .dots{
   margin-left: 200px;
   margin-top: -170px;
+  width: 900px; 
+  height: 200px;
 }
 
 .profile-image {
@@ -1242,6 +1244,8 @@ margin-right: 290px;
     .dots{
       margin-left: 200px;
       margin-top: -170px;
+      width: 900px; 
+      height: 250px;
     }
     
     
