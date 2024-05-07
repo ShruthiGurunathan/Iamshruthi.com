@@ -237,7 +237,7 @@ body {
 
 .hero-photo {
   margin-top: 280px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   margin-left: 730px;
 }
 
@@ -1175,7 +1175,7 @@ margin-right: 290px;
     
     .hero-photo {
       margin-top: 280px;
-      margin-bottom: 50px;
+      margin-bottom: -500px;
       margin-left: 730px;
     }
     
