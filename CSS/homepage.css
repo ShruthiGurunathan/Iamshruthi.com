@@ -6,7 +6,7 @@ margin-top: 15px;
 margin-bottom:30px; 
 margin-left:23px; 
 margin-right:20px;
-height: 3320px;
+height: 3400px;
 max-width: 1222px; 
 }
 
@@ -236,13 +236,9 @@ body {
 /* Images */
 
 .hero-photo {
-  width: 105%;
-  height: auto;
-  margin-top: 200px;
-  padding-left: 30px;
-  padding-right: 20px;
-  border: transparent;
-  border-radius: 30px;
+  margin-top: 280px;
+  margin-bottom: 50px;
+  margin-left: 730px;
 }
 
 .large-tag.hello {
@@ -254,7 +250,7 @@ body {
   height: 5ch;
   border: 2px solid black;
   border-radius: 100px;
-  margin-left: 150px;
+  margin-left: 135px;
   margin-top: -180px;
   justify-content: center;
   align-items: center;
@@ -279,7 +275,7 @@ div{
   height: 5ch;
   border: none;
   border-radius: 100px;
-  margin-left: 650px;
+  margin-left: 610px;
   margin-top: -115px;
   font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 4vw;
@@ -291,13 +287,17 @@ div{
   height: 5ch;
   border: none;
   border-radius: 100px;
-  margin-left: 650px;
+  margin-left: 610px;
   margin-top: -205px;
   font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 4vw;
   font-weight: 550;
 }
 
+.dots{
+  margin-left: 200px;
+  margin-top: -170px;
+}
 
 .profile-image {
   border: solid thin #f8256b;
@@ -949,7 +949,7 @@ margin-right: 290px;
     margin-bottom:20px; 
     margin-left:23px; 
     margin-right:20px;
-    height: 4000px;
+    height: 4030px;
     max-width: 2500px; 
     }
     
@@ -1174,14 +1174,11 @@ margin-right: 290px;
     /* Images */
     
     .hero-photo {
-      width: 105%;
-      height: auto;
-      margin-top: 300px;
-      padding-left: 30px;
-      padding-right: 20px;
-      border: transparent;
-      border-radius: 30px;
+      margin-top: 280px;
+      margin-bottom: 50px;
+      margin-left: 730px;
     }
+    
     
     .large-tag.hello {
       position: absolute;
@@ -1192,7 +1189,7 @@ margin-right: 290px;
       height: 5ch;
       border: 2px solid black;
       border-radius: 100px;
-      margin-left: 150px;
+      margin-left: 135px;
       margin-top: -260px;
       justify-content: center;
       align-items: center;
@@ -1218,7 +1215,7 @@ margin-right: 290px;
       height: 5ch;
       border: none;
       border-radius: 100px;
-      margin-left: 650px;
+      margin-left: 610px;
       margin-top: -115px;
       font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
       font-size: 4vw;
@@ -1230,14 +1227,17 @@ margin-right: 290px;
       height: 5ch;
       border: none;
       border-radius: 100px;
-      margin-left: 650px;
+      margin-left: 610px;
       margin-top: -205px;
       font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
       font-size: 4vw;
       font-weight: 550;
     }
     
-    
+    .dots{
+      margin-left: 200px;
+      margin-top: -170px;
+    }
     
     
     .profile-image {
