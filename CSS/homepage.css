@@ -239,6 +239,8 @@ body {
   margin-top: 280px;
   margin-bottom: 70px;
   margin-left: 730px;
+  width: 280px; 
+  height: 150px
 }
 
 .large-tag.hello {
@@ -1174,9 +1176,11 @@ margin-right: 290px;
     /* Images */
     
     .hero-photo {
-      margin-top: 280px;
-      margin-bottom: -500px;
-      margin-left: 730px;
+      margin-top: 350px;
+      margin-bottom: -23px;
+      margin-left: 1050px;
+      width: 380px; 
+      height: 200px
     }
     
     
@@ -1190,7 +1194,7 @@ margin-right: 290px;
       border: 2px solid black;
       border-radius: 100px;
       margin-left: 135px;
-      margin-top: -260px;
+      margin-top: -14px;
       justify-content: center;
       align-items: center;
       padding: .5ch .75ch;
@@ -1215,8 +1219,9 @@ margin-right: 290px;
       height: 5ch;
       border: none;
       border-radius: 100px;
-      margin-left: 610px;
-      margin-top: -115px;
+      margin-left: 900px;
+      margin-top: -50px;
+      margin-bottom: -270px;
       font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
       font-size: 4vw;
       font-weight: 550;
@@ -1227,7 +1232,7 @@ margin-right: 290px;
       height: 5ch;
       border: none;
       border-radius: 100px;
-      margin-left: 610px;
+      margin-left: 900px;
       margin-top: -205px;
       font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
       font-size: 4vw;
@@ -1243,8 +1248,9 @@ margin-right: 290px;
     .profile-image {
       border: solid thin #f8256b;
       border-radius: 50%;
-      margin-top: 500px;
-      margin-left: 100px;
+      margin-top: -225px;
+      margin-left: 438px;
+      margin-bottom: 30px;
       width: 400px;
       height: auto;
     }
