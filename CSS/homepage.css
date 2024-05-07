@@ -1251,9 +1251,8 @@ margin-right: 290px;
     .profile-image {
       border: solid thin #f8256b;
       border-radius: 50%;
-      margin-top: -225px;
-      margin-left: 438px;
-      margin-bottom: 30px;
+      margin-top: 500px;
+      margin-left: 100px;
       width: 400px;
       height: auto;
     }
