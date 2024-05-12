@@ -183,25 +183,35 @@ body {
 }
 
 .Navbut a {
-  color:#ffd359;
+  color:#fd7223;
   padding: 5px 20px;
   text-decoration: none;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  background-color: black;
   border-radius: 30px;
+  border: 1.5px solid black;
+  background-color: white; 
 }
 
 .Navbut a:hover {
-  background-color: black;
-  border-radius: 30px;
-  color:#fd7223;
+  background-color: white;
+  border-radius: 20px;
+  color:#ffd359;
   cursor: none;
 }
 
 .Navbut a.active {
-  color: black;
+  background-color: white;
   border-radius: 30px;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
 }
 
 
@@ -213,8 +223,8 @@ body {
   position: absolute;
   width: 22%;
   height: 65px;
-  background: black;
-  color: black;
+  background: white;
+  border: 1.5px solid black;
   border-radius: 50px;
   margin-left: 35px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -227,8 +237,12 @@ body {
   margin-bottom: 10px;
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  color:#ffde59;
+  color:#fd7223;
 }
+.circular-box-text-2{
+  color:#ffd359;
+}
+
 .circular-box-1{
   width: 20%
 }
@@ -251,8 +265,8 @@ body {
   width: 15ch;
   height: 5ch;
   border: 2px solid black;
+  background-color: white;;
   border-radius: 100px;
-  background-color: white;
   margin-left: 135px;
   margin-top: -180px;
   justify-content: center;

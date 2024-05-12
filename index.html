@@ -65,14 +65,24 @@ document.addEventListener('mousemove', (e) => {
               "Namaste",
               "Hola"
           ];
-          var i = 0;
-          setInterval(function() {
-              $('.changing-text').fadeOut(function(){
-                  $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-              });
-          }, 2000);
-      });
-  </script>
+          var colors = [
+                "#ffde59",
+                "#fd7223",
+                "#ff66C4",
+                "#f8256b",
+                "#ff66c4",
+                "#ab2ccd",
+            ];
+            var i = 0;
+            setInterval(function() {
+                $('.changing-text').fadeOut(function(){
+                    $(this).html(words[i]).css('color', colors[i]);
+                    i = (i + 1) % words.length;
+                    $(this).fadeIn();
+                });
+            }, 2000);
+        });
+    </script>
 
 <div class="dashed-border">
 <div class="circle-1"></div>
@@ -82,6 +92,7 @@ document.addEventListener('mousemove', (e) => {
 <a href="letstalk.html">Let's talk</a>
 </div>
 </div>
+
 
 <div class="topnav-item-2">
 <a href="Images/Shruthi_Gurunathan_Resume.pdf" target="_blank">Resume</a>
