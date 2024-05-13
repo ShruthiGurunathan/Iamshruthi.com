@@ -1134,7 +1134,6 @@
       
       .topnav-item-2 a:hover {
         border-radius: 30px;
-        border: 1.5px solid black;
         color:#f8256b;
         border: 2px solid #f8256b;
         background-color:#f4f1ea;
@@ -1212,7 +1211,6 @@
       
       .work a:hover {
         border-radius: 30px;
-        border: 1.5px solid black;
         color:#0b82e4;
         border: 1.5px solid #0b82e4;
         background-color:#f4f1ea;
