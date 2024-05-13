@@ -1136,7 +1136,7 @@
         border-radius: 30px;
         border: 1.5px solid black;
         color:#f8256b;
-        border: 1.5px solid #f8256b;
+        border: 2px solid #f8256b;
         background-color:#f4f1ea;
         box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
         cursor: none;
@@ -1179,7 +1179,7 @@
         background-color:#f4f1ea;
         border-radius: 20px;
         color:#ff66C4;
-        border: 1.5px solid #ff66C4;
+        border: 2px solid #ff66C4;
         cursor: none;
         box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
       }
@@ -1207,7 +1207,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
         background-color: white;
         border-radius: 30px;
-        border:1.5px solid black;
+        border: 2px solid black;
       }
       
       .work a:hover {
