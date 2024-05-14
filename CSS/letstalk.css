@@ -654,9 +654,10 @@ margin-right: 290px;
     display: flex;
     justify-content: flex end;
     align-items: center;
-    margin-top: -30px;
-    margin-left: 84%;
+    margin-top: -36.5px;
+    margin-left: 1445px;
     border: soild;
+    
   }
   
   .topnav-item-2 a {
@@ -667,26 +668,31 @@ margin-right: 290px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: white;
     border-radius: 30px;
-    border:#f8256b solid;
+    border: 1.5px solid black;
   }
   
   .topnav-item-2 a:hover {
     border-radius: 30px;
-    border: #ff66c4 solid;
-    color: #f8256b;
+    color:#f8256b;
+    border: 2px solid #f8256b;
     background-color:#f4f1ea;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: none;
+    font-weight: bold;
   }
   
+  
+  
+  
   .logo-small {
-    width: 110px;
-    height: 62px;
+    width: 100px;
+    height: 55px;
     margin-top: -100px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     margin-left: 20px; 
     border-radius: 10px;
     border: none;
-    
+    cursor: none;
   }
   
   
@@ -694,31 +700,65 @@ margin-right: 290px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 10px;
-    
+    margin-top: 9px;
   }
   
   .Navbut a {
-    color:#ffd359;
+    color:#ff66C4;
     padding: 5px 20px;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: black;
     border-radius: 30px;
+    border: 1.5px solid black;
+    background-color: white; 
   }
   
   .Navbut a:hover {
-    background-color: black;
-    border-radius: 30px;
-    color:#fd7223;
+    background-color:#f4f1ea;
+    border-radius: 20px;
+    color:#ff66C4;
+    border: 2px solid #ff66C4;
+    cursor: none;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
   }
   
   .Navbut a.active {
-    color: black;
+    background-color: white;
     border-radius: 30px;
   }
   
+  .work {
+    display: flex;
+    justify-content: flex end;
+    align-items: center;
+    margin-top: -27.5px;
+    margin-left: 1320px;
+    border: soild;
+    
+  }
+  
+  .work a {
+    color: #0b82e4;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-radius: 30px;
+    border:1.5px solid black;
+  }
+  
+  .work a:hover {
+    border-radius: 30px;
+    color:#0b82e4;
+    border: 2px solid #0b82e4;
+    background-color:#f4f1ea;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: none;
+    font-weight: bold;
+  }
   
   .description {
     display: flex;
