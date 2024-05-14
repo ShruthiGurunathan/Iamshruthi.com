@@ -140,7 +140,7 @@
     }
     
     .topnav-item-2 a {
-      color: #ffd359;
+      color: #f8256b;
       padding: 5px 20px;
       text-decoration: none;
       font-size: 20px;
@@ -152,7 +152,7 @@
     
     .topnav-item-2 a:hover {
       border-radius: 30px;
-      border: 1.5px solid black;
+      border: 2px solid #f8256b;
       color:#f8256b;
       background-color:#f4f1ea;
       box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
@@ -182,7 +182,7 @@
     }
     
     .Navbut a {
-      color:#fd7223;
+      color:#ff66C4;
       padding: 5px 20px;
       text-decoration: none;
       font-size: 20px;
@@ -195,6 +195,7 @@
     .Navbut a:hover {
       background-color:#f4f1ea;
       border-radius: 20px;
+      border: 2px solid #ff66C4;
       color:#ff66C4;
       cursor: none;
       box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
@@ -228,8 +229,8 @@
     
     .work a:hover {
       border-radius: 30px;
-      border: 1.5px solid black;
-      color:#ab2ccb;
+      border: 2px solid #0b82e4;
+      color: #0b82e4;
       background-color:#f4f1ea;
       box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
       cursor: none;
