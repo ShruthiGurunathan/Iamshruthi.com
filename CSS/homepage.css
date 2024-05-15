@@ -135,9 +135,8 @@ body {
   justify-content: flex end;
   align-items: center;
   margin-top: -36.5px;
-  margin-left: 890px;
-  border: soild;
-  
+  margin-left: 870px;
+  border: soild;  
 }
 
 .topnav-item-2 a {
@@ -154,7 +153,7 @@ body {
 .topnav-item-2 a:hover {
   border-radius: 30px;
   color:#f8256b;
-  border: 2px solid #f8256b;
+  border: 1.5px solid #f8256b;
   background-color:#f4f1ea;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
   cursor: none;
@@ -198,7 +197,7 @@ body {
   background-color:#f4f1ea;
   border-radius: 20px;
   color:#ff66C4;
-  border: 2px solid #ff66C4;
+  border: 1.5px solid #ff66C4;
   cursor: none;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
   font-weight: bold;
@@ -214,9 +213,8 @@ body {
   justify-content: flex end;
   align-items: center;
   margin-top: -28.5px;
-  margin-left: 765px;
+  margin-left: 725px;
   border: soild;
-  
 }
 
 .work a {
@@ -233,7 +231,7 @@ body {
 .work a:hover {
   border-radius: 30px;
   color:#0b82e4;
-  border: 2px solid #0b82e4;
+  border: 1.5px solid #0b82e4;
   background-color:#f4f1ea;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
   cursor: none;
