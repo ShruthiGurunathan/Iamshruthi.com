@@ -2,281 +2,231 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" type="text/css" href="CSS/homepage.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<link rel="icon" type="image/png" href= "Images/1-removebg-preview.png">
+  <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+  <link rel="stylesheet" type="text/css" href="CSS/global.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="icon" type="image/png" href="Images/1-removebg-preview.png">
+  <script src="js/navLogic.js"></script>
+  <script src="js/fadeInOutAnimationOfText.js"></script>
+  <script src="js/cursor.js"></script>
+
+
 </head>
 
 
-<!-- Header and Navigation bar -->
-
-<header>
-<div class="cursor"></div>
-
-<script type="text/javascript">
-
-const cursor = document.querySelector('.cursor');
-
-document.addEventListener('mousemove', (e) => {
-  const size = Math.min(Math.max(50, e.clientY * 0.5), 150); 
-  
-  cursor.style.width = size + 'px';
-  cursor.style.height = size + 'px';
-  cursor.style.left = e.pageX - (size / 2) + 'px';
-  cursor.style.top = e.pageY - (size / 2) + 'px';
-});
-    
-    </script>
-
-<img class="hero-photo" src="Images/2.png" alt="Hero photo;">
-  <div class="large-tag hello"><h2 class="display-medium-alt homepage changing-text">Hello</h2></div>
-  <div class="job-title"><div class="changing-text-2">UI/UX Designer</div></div>
-
-  <script type="text/javascript">
-    $(function () {
-        var words = [
-          "UX/UI Designer",
-            "UX Designer",
-            "UI Designer",
-            "Product Designer",
-            "Digital Designer",
-            "User Researcher",
-        ];
-        var i = 0;
-        setInterval(function() {
-            $('.changing-text-2').fadeOut(function(){
-                $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-            });
-        }, 2000);
-    });
-</script>
-
-
-  <div class="i-am">I am</div>
-  <img class="dots" src="Images/Dots.png" alt="Dots;">
-
-  <script type="text/javascript">
-      $(function () {
-          var words = [
-              "Hello",
-              "Ciao",
-              "Bonjour",
-              "Olá",
-              "Namaste",
-              "Hola",
-              "Guten Tag",
-          ];
-          var colors = [
-                "#ffde59",
-                "#fd7223",
-                "#ff66C4",
-                "#f8256b",
-                "#ff66c4",
-                "#ab2ccd",
-                "#0b82e4",
-            ];
-            var i = 0;
-            setInterval(function() {
-                $('.changing-text').fadeOut(function(){
-                    $(this).html(words[i]).css('color', colors[i]);
-                    i = (i + 1) % words.length;
-                    $(this).fadeIn();
-                });
-            }, 2000);
-        });
-    </script>
-
-<div class="dashed-border">
-<div class="circle-1"></div>
-<div class="circle-2"></div>
-<div class="Navbut">
-<div class="Nav">
-<a href="letstalk.html">Let's talk</a>
-</div>
-</div>
-
-
-<div class="work">
-<a href="work.html">Work</a>
-</div>
-
-<div class="topnav-item-2">
-<a href="Images/Shruthi_Gurunathan_Resume.pdf" target="_blank">Resume</a>
-</div>
-
-<a href="https://www.iamshruthi.com">
-    <img class="logo-small" src="Images/1-removebg-preview.png" alt="logo-small;">
-  </a>
-</div>
-
-<!-- Main section and content -->
 <body class="page-border">
-<div class="marquee">
-  <span>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-2">It's nice to meet you! </div>
-</span>
+  <div class="cursor hide-on-mobile"></div>
+  <div class="navbar-container">
+    <nav class="dashed-border navbar">
+      <a href="https://www.iamshruthi.com" class="logo-image">
+        <img class="logo-small" src="Images/1-removebg-preview.png" alt="logo-small;">
+      </a>
+      <div class="navbar-right-section hide-on-mobile">
+        <a href="work.html" class="nav-item work">Work</a>
+        <a href="Images/Shruthi_Gurunathan_Resume.pdf" target="_blank" class="resume nav-item">Resume</a>
+        <a href="letstalk.html" class="nav-item">Let's talk</a>
+      </div>
+      <div class="show-on-mobile dot dot-1 nav-dot"></div>
+      <div class="side-nav side-nav-hidden">
+        <div class=" dot dot-1 nav-dot inside-sidebar-dot"></div>
+
+        <a href="work.html" class="nav-item mob-nav-item work">Work</a>
+        <a href="Images/Shruthi_Gurunathan_Resume.pdf" target="_blank" class="resume mob-nav-item nav-item">Resume</a>
+        <a href="letstalk.html" class="nav-item mob-nav-item">Let's talk</a>
+      </div>
+    </nav>
   </div>
-</header>
+
+  <section class="hero-section">
+    <div class="hello">
+      <h2 class="changing-text">Hello</h2>
+    </div>
+    <div class="dots-wrapper">
+      <div class="dot dot-1"></div>
+      <div class="dot dot-2"></div>
+      <div class="dot dot-3"></div>
+      <div class="dot dot-4"></div>
+
+    </div>
+    <div class="job-title">
+      <div class="i-am"><span>I am </span><span class="shruthi">Shruthi</span> <span
+          class="dot shruthi-dot"></span><span class="shruthi">G</span>
+      </div>
+      <div class="changing-text-2">UI/UX Designer</div>
+    </div>
+  </section>
 
 
 
-<img class="profile-image" src="Images/Profile image.png" alt="Profile image">
-<div class="about-me">
-<p>Hello there!👋<br><br>
-It’s Shruthi 🙂 a UI/UX design professional 👩🏽‍💻 with a passion<br>
-for digital storytelling. I have a background as a Jewellery designer 💎<br>
-Architectural Graduate ✏️ and Stylist 👚 I’m fueled by empathy<br>
-and driven by the belief that great design should make people's<br>
-lives better. I specialise in crafting interfaces 💻 that resonate with<br>
-users on a personal level, ensuring every click 🖱️ feels like a step in<br>
-the right direction 👉 <br></p>
-</div>
+
+  <div class="marquee">
+    <span>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="text-2">It's nice to meet you! </div>
+    </span>
+  </div>
+
+  <div class="header-container">
+
+    <h2 class="section-header about-me-header">
+      About me
+    </h2>
+  </div>
+  <div class="about-me">
+    <img class="profile-image" src="Images/Profile image.png" alt="Profile image">
+    <p>Hello there!👋<br><br>
+      It’s Shruthi 🙂 a UI/UX design professional 👩🏽‍💻 with a passion<br>
+      for digital storytelling. I have a background as a Jewellery designer 💎<br>
+      Architectural Graduate ✏️ and Stylist 👚 I’m fueled by empathy<br>
+      and driven by the belief that great design should make people's<br>
+      lives better. I specialise in crafting interfaces 💻 that resonate with<br>
+      users on a personal level, ensuring every click 🖱️ feels like a step in<br>
+      the right direction 👉 <br></p>
+  </div>
 
 
-<section>
-<div class="circular-box-1">
-<div class="circular-box-text-1">
-<div class="text-1">
-<p>About me</p>
-</div>
-</div>
-</div>
+  <section class="cases-container">
+    <div class="header-container">
+      <h2 class="section-header case-studies-header">
+        Case Studies
+      </h2>
+    </div>
 
-<div class="circular-box-2">
-<div class="circular-box-text-2">
-<div class="text-1">
-<p>Case studies</p>
-</div>
-</div>
-</div>
+    <!-- Case study items -->
 
-<!-- Case study items -->
+    <a href="Images/Nomad Nook case study (final).pdf" target="_blank">
+      <div class="case-study-card case-study-card-01"> 01 Nomad Nook
+        <div class="badges-container">
+          <div class="card-badge">UI/UX </div>
+          <div class="card-badge">UX research</div>
+          <div class="card-badge">Product Design</div>
+          <div class="card-badge">Branding</div>
+        </div>
 
-<a href="Images/Nomad Nook case study (final).pdf" target="_blank">
-<div class="case-study-list-item-1">
-<div class="case-study-list-text-1"> 01 Nomad Nook 
-<div class="tag-1">UI/UX </div>
-<div class="tag-2">UX research</div>
-<div class="tag-3">Product Design</div> 
-<div class="tag-4">Branding</div>
-</div>
-</div>
-</a>
+      </div>
+    </a>
 
 
-<a href="Images/NutriPaws case study (final).pdf" target="_blank">
-<div class="case-study-list-item-2"> 
-<div class="case-study-list-text-2">02 NutriPaws
-<div class="tag-5">UX design</div>
-<div class="tag-6">UX research</div>
-<div class="tag-7">Mobile design</div>
-<div class="tag-8">Product design</div>
-</div>
-</div>
-</a>
+    <a href="Images/NutriPaws case study (final).pdf" target="_blank">
+      <div class="case-study-card case-study-card-02">02 NutriPaws
+        <div class="badges-container">
+
+          <div class="card-badge">UX design</div>
+          <div class="card-badge">UX research</div>
+          <div class="card-badge">Mobile design</div>
+          <div class="card-badge">Product design</div>
+        </div>
+      </div>
+    </a>
 
 
-<a href="Images/Department of Health cases study (Final).pdf" target="_blank">
-<div class="case-study-list-item-3">
-<div class="case-study-list-text-3">03 Department of Health and Aged Care
-<div class="tag-9">UI</div>
-<div class="tag-10">Website Design</div>
-</div>
-</div>
-</a>
+    <a href="Images/Department of Health cases study (Final).pdf" target="_blank">
+      <div class="case-study-card case-study-card-03">03 Department of Health and Aged Care
+        <div class="badges-container">
+          <div class="card-badge">UI</div>
+          <div class="card-badge">Website Design</div>
+        </div>
+      </div>
+    </a>
 
 
-<a href="Images/Chemist Warehouse case study (final).pdf" target="_blank">
-<div class="case-study-list-item-4">
-<div class="case-study-list-text-4">04 Chemist Warehouse
-<div class="tag-11">UI/UX</div>
-<div class="tag-12">Website Design</div>
-<div class="tag-13">Interaction</div>
-<div class="tag-14">Product design</div>
-</div>
-</div>
-</a>
+    <a href="Images/Chemist Warehouse case study (final).pdf" target="_blank">
+      <div class="case-study-card case-study-card-04 ">
+        04 Chemist Warehouse
+        <div class="badges-container">
+          <div class="card-badge">UI/UX</div>
+          <div class="card-badge">Website Design</div>
+          <div class="card-badge">Interaction</div>
+          <div class="card-badge">Product design</div>
+        </div>
+      </div>
+    </a>
+  </section>
+  <div class="description-section">
+    <div class="description-text">
+      <p>
+        When I’m not designing, I’m a fashion & personal stylist 👒 globe<br>
+        trotter 🌍 jewellery creator 💎 all right painter 🎨 book reader 📚<br>
+        yoga lover 🧘 scotch drinker 🥃 big thinker 💡 daydreamer 💭<br>
+        veggie eater 🥦 jazz lover 🎶 </p>
+    </div>
+    <div class="animated-circles-container">
+      <div class="animated-circle">
+        <div class="colored-background"></div>
+        <div class="circle-text">
+          <a href="https://www.linkedin.com/in/shruthi-gurunathan/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      <div class="animated-circle">
+        <div class="colored-background"></div>
+        <div class="circle-text">
+          <a href="shruthi.gurunathan@gmail.com" target="_blank">Email</a>
+        </div>
+      </div>
+      <div class="animated-circle">
+        <div class="colored-background"></div>
+        <div class="circle-text">
+          <a href="https://www.behance.net/shruthi-gurunathan" target="_blank">Behance</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="description">
-<p>When I’m not designing, I’m a fashion & personal stylist 👒 globe<br>
-trotter 🌍 jewellery creator 💎 all right painter 🎨 book reader 📚<br>
-yoga lover 🧘 scotch drinker 🥃 big thinker 💡 daydreamer 💭<br>
-veggie eater 🥦 jazz lover 🎶 </p>
-</div>
-
-<div class="thick-line-3"></div>
-<div class="thick-line-4"></div>
-
-<div class="animated-circle-1"></div>
-<div class="text-4">
-<a href="https://www.linkedin.com/in/shruthi-gurunathan/"target="_blank">LinkedIn</a>
-</div>
-
-<div class="animated-circle-2"></div>
-<div class="text-5">
-<a href="shruthi.gurunathan@gmail.com"target="_blank">Email</a>
-</div>
-
-<div class="animated-circle-3"></div>
-<div class="text-6">
-<a href="https://www.behance.net/shruthi-gurunathan"target="_blank">Behance</a>
-</div>
-
-</section>
-
-<div class="marquee">
-  <span>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-  <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
-  <div class="text-3">Reach out for something exciting!</div>
-</span>
+  <div class="marquee">
+    <span>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+      <img src="Images/Icons__Coloured_version_1_-removebg-preview.png" height="auto" alt="Icons">
+      <div class="big-marquee-text">Reach out for something exciting!</div>
+    </span>
   </div>
 </body>
 
 <!-- Footer -->
+<div class="footer-container">
 
-<footer class="footer">
-<div class="footer-text">
-<p>Made with ❤️ © Shruthi Gurunathan</p>
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Made with ❤️ © Shruthi Gurunathan</p>
+    </div>
+  </footer>
 </div>
-</footer>
 
 </body>
 
