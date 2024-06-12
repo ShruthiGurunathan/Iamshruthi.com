@@ -6,7 +6,6 @@
   width: 100%;
   min-height: 80vh;
   padding: 0 5%;
-  gap: 4%;
 }
 
 .hello {
@@ -30,15 +29,9 @@
   gap: 1rem;
   height: fit-content;
   width: fit-content;
+  margin: 0 2.5rem;
 }
-.dot {
-  height: 1rem;
-  width: 0.9rem;
-  /* aspect-ratio: 1/1; */
-  border-radius: 50%;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  display: block;
-}
+
 .dot-1 {
   background: linear-gradient(45deg, #f4dd77, #f4a777, #ea808e);
 }
@@ -56,21 +49,29 @@
   border: none;
   border-radius: 100px;
 
-  font-size: 4vw;
+  font-size: 4.5vw;
   font-weight: 550;
   display: flex;
   justify-content: start;
-  gap: 1rem;
+  gap: 0.5rem;
   align-items: end;
   text-wrap: nowrap;
 }
 .i-am .shruthi {
   font-family: "Broman";
 }
+
 .i-am .shruthi-dot {
-  position: relative;
-  top: -16px;
-  background: linear-gradient(45deg, #a150a1, #d482d4);
+  display: block;
+
+  background-image: url("../Images/Dot\ for\ name.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1000px !important;
+  background-size: contain;
+  margin-bottom: 3%;
 }
 /* Circular boxes */
 
@@ -107,6 +108,7 @@
 }
 .about-me p {
   background-color: white;
+  color: black;
   padding: 1rem 4rem;
   width: 90%;
   display: flex;
@@ -125,7 +127,50 @@
 /* Case study items */
 
 @media only screen and (max-width: 1024px) {
+  .profile-image {
+    width: 30% !important;
+  }
+  .about-me p {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    /* flex-direction: column; */
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .shruthi-dot {
+    top: -0.7rem !important;
+    height: 0.6rem !important;
+    transform: translateY(10%) !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dots-wrapper {
+    gap: 0rem !important;
+    margin: 0 1rem !important;
+  }
+  .dots-wrapper .dot {
+    margin-bottom: 0.4rem;
+  }
+  .i-am {
+    gap: 0.2rem !important;
+  }
+  .shruthi-dot {
+    margin-bottom: 0.2rem;
+    height: 0.35rem !important;
+  }
+
+  .profile-image {
+    width: 30% !important;
+  }
   .about-me {
-    flex-direction: column;
+    gap: 0rem !important;
+  }
+  .about-me p {
+    font-size: 0.4rem !important;
+    word-spacing: 0.1rem;
+    padding: 0.5rem 0.8rem;
+    margin-left: 1rem;
+    /* flex-direction: column; */
   }
 }
