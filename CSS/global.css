@@ -300,7 +300,7 @@ a {
   gap: 0.7rem;
 }
 .mob-nav-item {
-  font-size: 1rem !important;
+  font-size: 2.5rem !important;
 }
 /* Hero Section */
 
@@ -752,7 +752,7 @@ a {
     font-weight: 500;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 990px) {
   .section-header {
     padding: 0.7rem 2rem;
     font-size: 0.7rem !important;
@@ -767,6 +767,7 @@ a {
     padding-left: 5%;
     padding-right: 5%;
   }
+  
   .logo-small {
     /* height: ; */
     width: 4rem !important;
