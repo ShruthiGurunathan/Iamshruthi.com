@@ -697,11 +697,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 481px) {
-  .case-study-card span {
-    font-size: 2rem;
-  }
-}
+
 
 @media only screen and (max-width: 1024px) {
   .section-header {
@@ -720,7 +716,7 @@ a {
   }
 
   .card-badge {
-    font-size: 0.5rem !important;
+    font-size: 1rem !important;
   }
   .nav-item {
     font-size: 0.8rem;
@@ -756,6 +752,14 @@ a {
     font-weight: 500;
   }
 }
+
+@media only screen and (max-width: 481px) {
+.card-badge {
+  font-size: 0.7rem !important;
+  
+}
+}
+
 @media only screen and (max-width: 990px) {
   .section-header {
     padding: 0.7rem 2rem;
@@ -800,6 +804,10 @@ a {
   .marquee .text-2 {
     font-size: 4rem !important;
   }
+  .case-studies-header{
+    font-size: 1em !important;
+  }
+
   .case-study-card {
     flex-direction: column;
     padding: 0.5rem 2% !important;
@@ -824,8 +832,8 @@ a {
     justify-content: left !important;
   }
   .card-badge {
-    font-size: 0.7rem !important;
-    padding: 0.2rem 0.3rem !important;
+    font-size: 0.9rem !important;
+    padding: 0.2rem 0.9rem !important;
     margin: 0 0.1rem !important;
   }
   .case-study-card-01 {
