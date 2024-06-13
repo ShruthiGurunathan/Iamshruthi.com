@@ -545,7 +545,7 @@ a {
   margin-bottom: 2rem;
 }
 .case-study-card span {
-  font-weight: bold;
+  font-weight:lighter;
 }
 .case-study-card:hover {
   border-radius: 5rem;
