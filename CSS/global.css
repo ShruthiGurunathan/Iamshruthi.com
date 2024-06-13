@@ -779,9 +779,10 @@ a {
   .case-study-card {
     flex-direction: column;
     padding: 0.5rem 2% !important;
-    border-radius: 0 !important;
+    border-radius: 20px !important;
     align-items: start !important;
     margin-bottom: 0.5rem;
+    border-radius: 30px;
   }
   .case-study-card span {
     font-size: 1rem;
@@ -804,23 +805,19 @@ a {
     margin: 0 0.1rem !important;
   }
   .case-study-card-01 {
-    border-color: #0b82e4;
-    border-style: solid;
+    border: dashed 1.5px black;
   }
 
   .case-study-card-02 {
-    border-color: #ff66c4;
-    border-style: solid;
+    border: dashed 1.5px black;
   }
 
   .case-study-card-03 {
-    border-color: #fd7223;
-    border-style: solid;
+    border: dashed 1.5px black;
   }
 
   .case-study-card-04 {
-    border-color: #ab2ccb;
-    border-style: solid;
+    border: dashed 1.5px black;
   }
   .description-section {
     flex-direction: column;
