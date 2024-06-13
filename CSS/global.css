@@ -756,7 +756,7 @@ a {
 @media only screen and (max-width: 481px) {
 .card-badge {
   font-size: 0.7rem !important;
-  
+
 }
 }
 
@@ -807,7 +807,9 @@ a {
   .case-studies-header{
     font-size: 1em !important;
   }
-
+  .about-me-header {
+    font-size: 1em !important;
+  }
   .case-study-card {
     flex-direction: column;
     padding: 0.5rem 2% !important;
