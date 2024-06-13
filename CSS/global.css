@@ -766,14 +766,6 @@ a {
 
 }
 
-@media only screen and (max-width: 435px) {
-  .card-badge {
-    font-size: 0.2rem !important;
-      padding: 0.2rem 0.2rem !important;
-      margin: 0 0.1rem !important;
-    }
-  }
-
 @media only screen and (max-width: 990px) {
   .section-header {
     padding: 0.7rem 2rem;
@@ -848,7 +840,7 @@ a {
     justify-content: left !important;
   }
   .card-badge {
-    font-size: 0.9rem !important;
+    font-size: 0.7rem !important;
     padding: 0.2rem 0.9rem !important;
     margin: 0 0.1rem !important;
   }
