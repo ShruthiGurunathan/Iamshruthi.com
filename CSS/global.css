@@ -685,6 +685,19 @@ a {
   margin-top: 22px;
 }
 
+@media only screen and (max-width: 1110px) {
+  .case-study-card span {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 902px) {
+  .case-study-card span {
+    font-size: 2rem;
+  }
+}
+
+
 @media only screen and (max-width: 1024px) {
   .section-header {
     font-size: 1.3rem !important;
@@ -696,6 +709,11 @@ a {
     justify-content: end !important;
     gap: 0.5rem !important;
   }
+
+  .case-study-card span {
+    font-size: 2rem;
+  }
+
   .card-badge {
     font-size: 0.5rem !important;
   }
