@@ -797,7 +797,7 @@ a {
     justify-content: end !important;
     gap: 0rem !important;
     width: 100%;
-    justify-content: center !important;
+    justify-content: left !important;
   }
   .card-badge {
     font-size: 0.7rem !important;
