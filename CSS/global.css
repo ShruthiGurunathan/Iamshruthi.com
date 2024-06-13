@@ -697,6 +697,11 @@ a {
   }
 }
 
+@media only screen and (max-width: 481px) {
+  .case-study-card span {
+    font-size: 2rem;
+  }
+}
 
 
 @media only screen and (max-width: 1024px) {
