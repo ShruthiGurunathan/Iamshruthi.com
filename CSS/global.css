@@ -226,14 +226,6 @@ a {
   border-radius: 30px;
 }
 
-.work {
-  color: #0b82e4;
-}
-.work:hover {
-  color: #0b82e4;
-
-  border: 1.5px solid #0b82e4;
-}
 .nav-dot {
   width: 2rem !important;
   height: 2rem !important;
