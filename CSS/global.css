@@ -222,6 +222,15 @@ a {
   border: 1.5px solid #f8256b;
 }
 
+
+.aboutme {
+  color: #3e6c20;
+}
+.aboutme:hover {
+  color: #3e6c20;
+  border: 1.5px solid #3e6c20;
+}
+
 .nav-item.active {
   background-color: white;
   border-radius: 30px;
@@ -598,7 +607,8 @@ a {
     #ab2ccb,
     #f8256b,
     #fd7223,
-    #0b82e4
+    #0b82e4,
+    #3e6c20
   );
   border-radius: 5000px !important;
   animation: spin 10s linear infinite;
