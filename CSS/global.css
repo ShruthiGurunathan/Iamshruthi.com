@@ -362,7 +362,7 @@ a {
 
 .case-study-list-item-3 {
   margin-top: 20px;
-  color: #fd7223;
+  color: #3e6c20;
 }
 
 .case-study-list-item-4 {
@@ -407,7 +407,7 @@ a {
 }
 
 .case-study-card-03:hover {
-  border: solid 1.5px #fd7223;
+  border: solid 1.5px #3e6c20;
   background-color: #f4f1ea;
   border-radius: 250px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
