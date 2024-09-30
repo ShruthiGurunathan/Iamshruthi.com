@@ -7,6 +7,7 @@ $(function () {
     "Namaste",
     "Hola",
     "Guten Tag",
+    "Merhaba",
   ];
   var colors = [
     "#ffde59",
@@ -16,6 +17,7 @@ $(function () {
     "#ff66c4",
     "#ab2ccd",
     "#0b82e4",
+    "#3e6c20"
   ];
   var i = 0;
   setInterval(function () {
