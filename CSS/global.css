@@ -655,6 +655,27 @@ a {
   font-size: 180px;
 }
 
+.big-marquee-text-1 {
+  white-space: collapse;
+  text-wrap: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  font-style: italic;
+  font-size: 150px;
+  padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icons {
+  height:190px;
+  margin-top: 10px;
+}
 @keyframes moveText {
   0% {
     transform: translateX(0);
