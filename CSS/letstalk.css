@@ -16,10 +16,10 @@
 
 @media only screen and (max-width: 481px) {
 .big-marquee-text-1 {
-  font-size: 3em !important;
+  font-size: 2.75em !important;
 }
 .icons {
-  height: 5em !important;
+  height: 4 !important;
 }
 .let-talk-page-marquee {
   margin-top: 25vh !important;
