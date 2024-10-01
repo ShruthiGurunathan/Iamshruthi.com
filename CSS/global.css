@@ -780,7 +780,7 @@ a {
 
 @media only screen and (max-width: 481px) {
 .about-me-header {
-  font-size: 2em !important;
+  font-size: 5em !important;
 }
 .case-study-card span {
   font-size: 0.95em !important;
