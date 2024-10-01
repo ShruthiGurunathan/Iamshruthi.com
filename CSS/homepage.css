@@ -150,6 +150,14 @@
     padding: 1rem 2rem;
     /* flex-direction: column; */
   }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
+  }
+  
 }
 @media only screen and (max-width: 1024px) {
   .shruthi-dot {
@@ -157,6 +165,14 @@
     height: 0.6rem !important;
     transform: translateY(10%) !important;
   }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
+  }
+  
 }
 
 @media only screen and (max-width: 990px) {
@@ -188,4 +204,12 @@
     margin-left: 1rem;
     /* flex-direction: column; */
   }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
+  }
+  
 }

@@ -13,6 +13,13 @@
   .lets-talk {
     font-size: 2rem !important;
   }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
+  }
   
 }
 
@@ -27,6 +34,13 @@
 .let-talk-page-marquee {
   margin-top: 25vh !important;
 }
+.about {
+  color: #3e6c20;
+}
+.about:hover {
+  color: #3e6c20;
+  border: 1.5px solid #3e6c20;
+}
 
 }
 
@@ -37,6 +51,14 @@
   .lets-talk {
     font-size: 1.3rem !important;
   }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
+  }
+  
 }
 
 
