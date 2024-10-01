@@ -362,7 +362,6 @@ div {
 .about-me::before {
   position: absolute;
   content: "";
-  background-color: black;
   height: 5px;
   width: 100%;
   bottom: 0;
