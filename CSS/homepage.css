@@ -130,11 +130,7 @@
   .profile-image {
     width: 30% !important;
   }
-  .about-me p {
-    font-size: 1rem;
-    padding: 1rem 2rem;
-    /* flex-direction: column; */
-  }
+  
 }
 @media only screen and (max-width: 1024px) {
   .shruthi-dot {
