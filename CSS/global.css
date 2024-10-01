@@ -226,6 +226,7 @@ a {
 .about {
   color: #3e6c20;
 }
+
 .about:hover {
   color: #3e6c20;
   border: 1.5px solid #3e6c20;
@@ -850,7 +851,14 @@ a {
     width: 30px;
     height: 30px;
 }
+.about {
+  color: #3e6c20;
+}
 
+.about:hover {
+  color: #3e6c20;
+  border: 1.5px solid #3e6c20;
+}
 
 
 
@@ -984,5 +992,4 @@ a {
   .animated-circles-container {
     margin-left: 0 !important;
   }
-
-}
+}}
