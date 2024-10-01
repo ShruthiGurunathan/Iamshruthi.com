@@ -789,6 +789,10 @@ a {
   font-size: 0.95em !important;
 }
 
+.profile-image{
+  display: flex;
+ align-items: center;
+}
 }
 
 @media only screen and (max-width: 358px) {
