@@ -795,7 +795,7 @@ a {
   align-items: center; 
 }
 .big-marquee-text-1 {
-  font-size: 1em !important;
+  font-size: 0.5em !important;
 }
 .icons {
   height: 2em !important;
