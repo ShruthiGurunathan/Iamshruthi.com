@@ -714,6 +714,9 @@ a {
   .case-study-card span {
     font-size: 2rem;
   }
+  .big-marquee-text-1 {
+    font-size: 2.55em !important;
+  }
 }
 
 @media only screen and (max-width: 902px) {
