@@ -7,10 +7,20 @@
 .lets-talk {
   color: black;
 }
+
+.aboutme {
+  color: #3e6c20;
+}
+.aboutme:hover {
+  color: #3e6c20;
+  border: 1.5px solid #3e6c20;
+}
+
 @media only screen and (max-width: 1024px) {
   .lets-talk {
     font-size: 2rem !important;
   }
+  
 }
 
 
