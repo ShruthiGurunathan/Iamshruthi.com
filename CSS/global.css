@@ -761,11 +761,25 @@ a {
   .big-marquee-text-1 {
     font-size: 2.55em !important;
   }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
+  }
 }
 
 @media only screen and (max-width: 902px) {
   .case-study-card span {
     font-size: 2rem;
+  }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
   }
 }
 
@@ -809,7 +823,14 @@ a {
   .circle-text {
     font-size: 0.8rem;
     font-weight: 500;
-  }
+ 
+    .about {
+      color: #3e6c20;
+    }
+    .about:hover {
+      color: #3e6c20;
+      border: 1.5px solid #3e6c20;
+    } }
 }
 @media only screen and (max-width: 700px) {
   .section-header {
@@ -822,6 +843,13 @@ a {
   .circle-text {
     font-size: 0.65rem;
     font-weight: 500;
+  }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
   }
 }
 
@@ -847,10 +875,10 @@ a {
     height: 30px;
 }
 
-.aboutme {
+.about {
   color: #3e6c20;
 }
-.aboutme:hover {
+.about:hover {
   color: #3e6c20;
   border: 1.5px solid #3e6c20;
 }
@@ -864,14 +892,26 @@ a {
   .case-study-card span {
     font-size: 0.9em !important;
   }
-  
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
+  }
   }
 
   @media only screen and (max-width: 320px) {
     .case-study-card span {
       font-size: 0.7em !important;
     }
-    
+    .about {
+      color: #3e6c20;
+    }
+    .about:hover {
+      color: #3e6c20;
+      border: 1.5px solid #3e6c20;
+    }
     }
 
     
@@ -980,5 +1020,12 @@ a {
   }
   .animated-circles-container {
     margin-left: 0 !important;
+  }
+  .about {
+    color: #3e6c20;
+  }
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
   }
 }
