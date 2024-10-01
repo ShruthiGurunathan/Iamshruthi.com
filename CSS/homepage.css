@@ -91,28 +91,7 @@
   border-radius: 50%;
   width: 300px;
   height: auto;
-}
-
-.about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  gap: 2rem;
-  width: 100%;
-  padding: 2rem 2%;
-  word-spacing: 8px;
-}
-.about-me-header {
-  color: #fd7223;
-}
-.about-me p {
-  background-color: white;
-  color: black;
-  padding: 1rem 4rem;
-  width: 90%;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 100px ;
 }
 .header-container {
   width: 100%;
@@ -158,15 +137,5 @@
 
   .profile-image {
     width: 30% !important;
-  }
-  .about-me {
-    gap: 0rem !important;
-  }
-  .about-me p {
-    font-size: 0.4rem !important;
-    word-spacing: 0.1rem;
-    padding: 0.5rem 0.8rem;
-    margin-left: 1rem;
-    /* flex-direction: column; */
   }
 }
