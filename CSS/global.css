@@ -790,14 +790,13 @@ a {
 }
 
 .profile-image{
-  display: flex;
-  align-items: center; 
+  margin-left: 5em !important;
 }
 .big-marquee-text-1 {
-  font-size: 0.5em !important;
+  font-size: 5em !important;
 }
 .icons {
-  height: 2em !important;
+  height: 5em !important;
 }
 }
 
