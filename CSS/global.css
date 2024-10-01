@@ -214,6 +214,15 @@ a {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
+.about {
+  color: #3e6c20;
+}
+
+.about:hover {
+  color: #3e6c20;
+  border: 1.5px solid #3e6c20;
+}
+
 .home {
   color: #f8256b;
 }
@@ -223,14 +232,7 @@ a {
 }
 
 
-.about {
-  color: #3e6c20;
-}
 
-.about:hover {
-  color: #3e6c20;
-  border: 1.5px solid #3e6c20;
-}
 
 .section-header .about-me-header {
   color: #fd7223;
@@ -850,14 +852,6 @@ a {
 .animated-circle {
     width: 30px;
     height: 30px;
-}
-.about {
-  color: #3e6c20;
-}
-
-.about:hover {
-  color: #3e6c20;
-  border: 1.5px solid #3e6c20;
 }
 
 
