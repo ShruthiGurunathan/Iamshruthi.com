@@ -239,6 +239,7 @@ a {
 .nav-item.active {
   background-color: white;
   border-radius: 30px;
+  color:#3e6c20;
 }
 
 .nav-dot {

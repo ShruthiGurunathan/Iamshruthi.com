@@ -107,7 +107,7 @@
   word-spacing: 8px;
 }
 
-.about {
+.about{
   color:#3e6c20;
 }
 
@@ -115,7 +115,6 @@
   color:#3e6c20;
   border: 1.5px solid #3e6c20;
 }
-
 
 
 .about-me-header {
@@ -189,3 +188,4 @@
     /* flex-direction: column; */
   }
 }
+
