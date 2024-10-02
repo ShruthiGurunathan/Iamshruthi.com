@@ -822,9 +822,9 @@ a {
     font-size: 1.1rem !important;
   }
   .animated-circle {
-    width: 60px;
-    height: 60px;
-  }
+    width: 2.5em !important;
+    height: 2.5em !important;
+}
   .circle-text {
     font-size: 0.65rem;
     font-weight: 500;
@@ -850,8 +850,8 @@ a {
   height: 4em !important;
 }
 .animated-circle {
-    width: 30px;
-    height: 30px;
+    width: 2.5em !important;
+    height: 2.5em !important;
 }
 
 
@@ -863,14 +863,16 @@ a {
   .case-study-card span {
     font-size: 0.9em !important;
   }
-
   }
 
   @media only screen and (max-width: 320px) {
     .case-study-card span {
       font-size: 0.7em !important;
     }
-   
+    .animated-circle {
+      width: 2.5em !important;
+      height: 2.5em !important;
+  }
     }
 
     
@@ -899,9 +901,9 @@ a {
   }
 
   .animated-circle {
-    width: 80px;
-    height: 80px;
-  }
+    width: 2.5em !important;
+    height: 2.5em !important;
+}
   .circle-text {
     font-size: 0.6rem;
     font-weight: 500;

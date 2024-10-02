@@ -64,28 +64,10 @@
   }
 }
 @media only screen and (max-width: 1024px) {
-  .shruthi-dot {
-    top: -0.7rem !important;
-    height: 0.6rem !important;
-    transform: translateY(10%) !important;
-  }
+ 
 }
 
 @media only screen and (max-width: 990px) {
-  .dots-wrapper {
-    gap: 0rem !important;
-    margin: 0 1rem !important;
-  }
-  .dots-wrapper .dot {
-    margin-bottom: 0.4rem;
-  }
-  .i-am {
-    gap: 0.2rem !important;
-  }
-  .shruthi-dot {
-    margin-bottom: 0.2rem;
-    height: 0.35rem !important;
-  }
 
   .profile-image {
     width: 30% !important;
