@@ -107,11 +107,11 @@
   word-spacing: 8px;
 }
 
-.about-nav-item {
+.about {
   color:#3e6c20;
 }
 
-.about-nav-item:hover{
+.about:hover{
   color:#3e6c20;
   border: 1.5px solid #3e6c20;
 }
