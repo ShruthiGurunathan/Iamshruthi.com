@@ -224,11 +224,11 @@ a {
   border: 1.5px solid #f8256b;
 }
 
-.about {
+.about-nav-item {
   color:#3e6c20;
 }
 
-.about:hover{
+.about-nav-item:hover{
   color:#3e6c20;
   border: 1.5px solid #3e6c20;
 }
@@ -853,14 +853,6 @@ a {
     width: 30px;
     height: 30px;
 }
-.about {
-  color: #3e6c20;
-}
-
-.about:hover {
-  color: #3e6c20;
-  border: 1.5px solid #3e6c20;
-}
 
 
 
@@ -871,13 +863,7 @@ a {
   .case-study-card span {
     font-size: 0.9em !important;
   }
-  .about {
-    color: #3e6c20;
-  }
-  .about:hover {
-    color: #3e6c20;
-    border: 1.5px solid #3e6c20;
-  }
+
   }
 
   @media only screen and (max-width: 320px) {
@@ -993,13 +979,5 @@ a {
   }
   .animated-circles-container {
     margin-left: 0 !important;
-  }
-  .about {
-    color: #3e6c20;
-  }
-  
-  .about:hover {
-    color: #3e6c20;
-    border: 1.5px solid #3e6c20;
   }
 }}
