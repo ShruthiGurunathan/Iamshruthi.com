@@ -224,8 +224,14 @@ a {
   border: 1.5px solid #f8256b;
 }
 
+.about {
+  color:#3e6c20;
+}
 
-
+.about:hover{
+  color:#3e6c20;
+  border: 1.5px solid #3e6c20;
+}
 
 .section-header .about-me-header {
   color: #fd7223;
@@ -378,14 +384,7 @@ div {
   width: fit-content;
   margin: 0;
 }
-.about {
-  color: #3e6c20;
-}
 
-.about:hover {
-  color: #3e6c20;
-  border: 1.5px solid #3e6c20;
-}
 
 
 
@@ -994,5 +993,13 @@ a {
   }
   .animated-circles-container {
     margin-left: 0 !important;
+  }
+  .about {
+    color: #3e6c20;
+  }
+  
+  .about:hover {
+    color: #3e6c20;
+    border: 1.5px solid #3e6c20;
   }
 }}
