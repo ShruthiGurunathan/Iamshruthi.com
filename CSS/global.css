@@ -358,7 +358,6 @@ div {
 .about-me::after {
   position: absolute;
   content: "";
-  background-color: black;
   height: 5px;
   width: 100%;
   top: 0;
@@ -383,6 +382,7 @@ div {
 .about-me p {
   width: fit-content;
   margin: 0;
+
 }
 
 
