@@ -703,13 +703,15 @@ a {
 }
 
 .big-marquee-text-1 {
-  white-space: collapse;
-  text-wrap: nowrap;
-  display: inline-block;
-  overflow: hidden;
-  font-style: italic;
-  font-size: 150px;
-  padding-left: 15px;
+  white-space: nowrap; 
+    overflow: hidden; 
+    font-style: italic; 
+    font-size: 11vw; 
+    padding-left: 15px; 
+    text-align: center; 
+    display: block; 
+    max-width: 100%; 
+    box-sizing: border-box; 
 }
 
 .container {
@@ -761,17 +763,11 @@ a {
   .case-study-card span {
     font-size: 2rem;
   }
-  .big-marquee-text-1 {
-    font-size: 7rem !important;
-  }
 }
 
 @media only screen and (max-width: 902px) {
   .case-study-card span {
     font-size: 2rem;
-  }
-  .big-marquee-text-1 {
-    font-size: 5.4rem !important;
   }
 }
 
@@ -843,9 +839,6 @@ a {
   font-size: 0.95em !important;
 }
 
-.big-marquee-text-1 {
-  font-size: 2.55em !important;
-}
 .icons {
   height: 4em !important;
 }
@@ -869,7 +862,7 @@ a {
   .case-study-card span {
     font-size: 0.9em !important;
   }
-  
+
   }
 
   @media only screen and (max-width: 320px) {
@@ -988,9 +981,6 @@ a {
   }
   .animated-circles-container {
     margin-left: 0 !important;
-  }
-  .big-marquee-text-1 {
-    font-size: 2.9rem !important;
   }
 }}
 
