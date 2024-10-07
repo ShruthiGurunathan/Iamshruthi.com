@@ -9,16 +9,7 @@
 
 }
 
-.about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  gap: 2rem;
-  width: 100%;
-  padding: 2rem 2%;
-  word-spacing: 8px;
-}
+
 
 .about{
   color:#3e6c20;

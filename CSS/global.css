@@ -706,12 +706,13 @@ a {
   white-space: nowrap; 
     overflow: hidden; 
     font-style: italic; 
-    font-size: 11vw; 
+    font-size: 10vw; 
     padding-left: 15px; 
     text-align: center; 
     display: block; 
     max-width: 100%; 
     box-sizing: border-box; 
+    font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 }
 
 .container {
@@ -722,7 +723,7 @@ a {
 }
 
 .icons {
-  height:190px;
+  height:150px;
   margin-top: 10px;
 }
 @keyframes moveText {
@@ -813,6 +814,8 @@ a {
     font-weight: 500;
  
 }
+
+
 @media only screen and (max-width: 700px) {
   .section-header {
     font-size: 1.1rem !important;
