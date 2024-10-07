@@ -762,16 +762,17 @@ a {
     font-size: 2rem;
   }
   .big-marquee-text-1 {
-    font-size: 3rem !important;
+    font-size: 7rem !important;
   }
- 
 }
 
 @media only screen and (max-width: 902px) {
   .case-study-card span {
     font-size: 2rem;
   }
-
+  .big-marquee-text-1 {
+    font-size: 5.4rem !important;
+  }
 }
 
 
@@ -815,7 +816,6 @@ a {
     font-size: 0.8rem;
     font-weight: 500;
  
-   
 }
 @media only screen and (max-width: 700px) {
   .section-header {
@@ -829,7 +829,7 @@ a {
     font-size: 0.65rem;
     font-weight: 500;
   }
- 
+  
 }
 
 @media only screen and (max-width: 481px) {
@@ -869,6 +869,7 @@ a {
   .case-study-card span {
     font-size: 0.9em !important;
   }
+  
   }
 
   @media only screen and (max-width: 320px) {
@@ -988,4 +989,9 @@ a {
   .animated-circles-container {
     margin-left: 0 !important;
   }
+  .big-marquee-text-1 {
+    font-size: 2.9rem !important;
+  }
 }}
+
+
