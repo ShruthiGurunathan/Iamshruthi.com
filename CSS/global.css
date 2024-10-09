@@ -706,8 +706,8 @@ a {
   white-space: nowrap; 
     overflow: hidden; 
     font-style: italic; 
-    font-size: 10vw; 
-    padding-left: 15px; 
+    font-size: 9.7vw; 
+    padding-left: 5px; 
     text-align: center; 
     display: block; 
     max-width: 100%; 
@@ -723,8 +723,10 @@ a {
 }
 
 .icons {
-  height:200px;
+  height: 150px;
+  max-width: 100%;
   margin-top: 10px;
+  padding-right: 5px;
 }
 
 

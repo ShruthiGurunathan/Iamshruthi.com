@@ -42,6 +42,15 @@
   word-spacing: 8px;
 }
 
+
+
+
+.icons {
+  max-width: 10px;
+  margin-top: 10px;
+}
+
+
 /* Case study items */
 
 @media only screen and (max-width: 1024px) {
