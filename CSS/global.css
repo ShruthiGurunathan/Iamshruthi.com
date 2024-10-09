@@ -723,9 +723,11 @@ a {
 }
 
 .icons {
-  height:150px;
+  height:200px;
   margin-top: 10px;
 }
+
+
 @keyframes moveText {
   0% {
     transform: translateX(0);

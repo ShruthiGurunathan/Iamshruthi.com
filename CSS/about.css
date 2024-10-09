@@ -71,12 +71,5 @@
     word-spacing: 0.1rem;
     padding: 0.5rem 0.8rem;
     margin-left: 1rem;
-    /* flex-direction: column; */
-  }
-}
-
-@media only screen and (min-width: 540px),(max-width:720) {
-  .big-marquee-text-1 {
-    font-size: 5rem !important; 
   }
 }
