@@ -5,9 +5,8 @@
   /* You can specify other font formats here as well */
 }
 body {
-  background: url("../Images/Background offwhite colour.png") center center
-    fixed;
-  background-size: cover;
+  
+  background-color: white;
 }
 html {
   display: flex;
